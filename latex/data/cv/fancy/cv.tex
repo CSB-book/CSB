@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{../biblio.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{stefano}{\color{slateblue}allesina}{} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	Sidebar
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Ecology \& Evolution
+1101 E. 57th Chicago
+IL 60637 USA
+\href{mailto:sallesina@uchicago.edu}{sallesina@uchicago.edu}
+\href{http://allesinalab.uchicago.edu}{allesinalab.uchicago.edu}
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	Positions
+%----------------------------------------------------------------------------------------
+\section{appointments}
+\begin{entrylist}
+\entry
+{2014--}
+{Professor}
+{University of Chicago}
+{Department of Ecology \& Evolution\\
+Senior Fellow, Computation Institute}
+
+\entry
+{2009--2014}
+{Assistant Professor}
+{University of Chicago}
+{Department of Ecology \& Evolution\\
+Fellow, Computation Institute}
+
+\entry
+{2007--2009}
+{Postdoctoral Associate}
+{University of California Santa Barbara}
+{National Center for Ecological Analysis \& Synthesis (NCEAS)}
+
+\entry
+{2005--2007}
+{Postdoctoral Fellow}
+{University of Michigan}
+{Mercedes Pascual Laboratory}
+
+\entry
+{2004--2005}
+{Postdoctoral Fellow}
+{Michigan State University}
+{Scott Peacor Laboratory; NOAA GLERL}
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	Education
+%----------------------------------------------------------------------------------------
+\section{education}
+\begin{entrylist}
+\entry
+{2002--2005}
+{Ph.D, Ecology}
+{Universit\`a degli Studi di Parma, Italy}
+{Advisor --- Antonio Bodini}
+
+
+\entry
+{1995--2001}
+{Laurea, Environmental Sciences}
+{Universit\`a degli Studi di Parma, Italy}
+{Advisor --- Alessandro Zaccagnini}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Pubs
+%----------------------------------------------------------------------------------------
+\section{publications}
+\printbibsection{article}{recent articles} % Print all articles from the bibliography
+\nocite{*}
+
+%----------------------------------------------------------------------------------------
+%	Editing
+%----------------------------------------------------------------------------------------
+\section{editing}
+\begin{entrylist}
+\entry
+{2015--}
+{PLoS Computational Biology}
+{Associate Editor}{}
+
+\entry
+{2015--}
+{Scientific Reports}
+{Editor}{}
+
+\entry
+{2013--}
+{Frontiers in Population Dynamics}
+{Associate Editor}{}
+
+\entry
+{2012--}
+{Journal of Complex Networks}
+{Associate Editor}{}
+
+\entry
+{2009--}
+{Oikos}
+{Subject Editor}{}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Reviewing
+%----------------------------------------------------------------------------------------
+\section{reviewing}
+Reviewer for more than 50 journals and funding agencies, including:
+American Naturalist, Ecological Monographs,
+Ecology, Ecology Letters, National Science Foundation, Nature, Nature
+Communications, Nature Methods, NERC, Oikos, PLoS Biology, PLoS One,
+Proceedings of the National Academy of Sciences USA, Science, Trends in Ecology \&
+Evolution.
+%----------------------------------------------------------------------------------------
+%	Add other sections, such as grants, talks, etc.
+%----------------------------------------------------------------------------------------
+
+\end{document}

@@ -1,0 +1,11 @@
+Data from:
+
+Mikaelyan A, Dietrich C, Köhler T, Poulsen M, Sillam-Dussès D, Brune A (2015) Diet is the primary determinant of bacterial community structure in the guts of higher termites. Molecular Ecology 24(20): 5284–5295. http://dx.doi.org/10.1111/mec.13376
+
+Adapted from the Data Dryad:
+
+Mikaelyan A, Dietrich C, Köhler T, Poulsen M, Sillam-Dussès D, Brune A (2015) Data from: Diet is the primary determinant of bacterial community structure in the guts of higher termites. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.v46f0
+
+We have reformatted and imported into an SQLite database the data contained in the file Dryad_OTUtable.txt
+
+

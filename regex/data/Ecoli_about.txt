@@ -1,0 +1,7 @@
+About the data:
+Partial nucleotide sequence of Escherichia coli str. K-12
+substr. MG1655
+region 1978338-2028069 and 4035299-4037302
+
+Data taken from:
+http://www.ncbi.nlm.nih.gov/nuccore/556503834/

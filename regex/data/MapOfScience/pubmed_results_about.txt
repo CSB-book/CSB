@@ -1,0 +1,3 @@
+Downloaded from PubMed Central on January 18th 2016, using the query:
+
+("Science (New York, N.Y.)"[Journal]) AND ("2015/01/01"[Date - Publication] : "2015/12/31"[Date - Publication]) 

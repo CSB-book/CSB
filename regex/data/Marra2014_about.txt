@@ -1,0 +1,12 @@
+Data published by:
+Marra NJ, DeWoody JA (2014) Transcriptomic characterization of the immunogenetic repertoires of heteromyid rodents. BMC Genomics 15: 929. http://dx.doi.org/10.1186/1471-2164-15-929
+
+Data description:
+	C_bail_spleen_top_blast_data.txt (3.399 Mb) contains preliminary blast descriptions for contigs from the combined assembly of Illumina reads pooled from 4 individual Chaetodipus baileyi spleen libraries. Descriptions are from a BLASTx search of the Swiss-Prot database at e<1x10^-6.
+
+Note, that the provided data file Marra2014_BLAST_data.txt contains the lines 20000 to the end of file (34059) of the original file C_bail_spleen_top_blast_data.txt.
+
+
+Data taken from:
+Marra NJ, DeWoody JA (2014) Data from: Transcriptomic characterization of the immunogenetic repertoires of heteromyid rodents. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.qn474
+

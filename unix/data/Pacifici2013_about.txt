@@ -1,0 +1,8 @@
+Data adapted from the Dryad data package:
+
+Pacifici M, Santini L, Di Marco M, Baisero D, Francucci L, Grottolo Marasini G, Visconti P, Rondinini C (2013) Data from: Generation length for mammals. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.gd0m3
+
+Associated with the publication:
+
+Pacifici M, Santini L, Di Marco M, Baisero D, Francucci L, Grottolo Marasini G, Visconti P, Rondinini C (2013) Generation length for mammals. Nature Conservation 5: 89-94. http://dx.doi.org/10.3897/natureconservation.5.5734
+

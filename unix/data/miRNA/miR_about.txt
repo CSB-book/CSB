@@ -1,0 +1,1 @@
+miR sequence data of Hominidae species  were downloaded from http://www.mirbase.org/ on May 23rd, 2016.

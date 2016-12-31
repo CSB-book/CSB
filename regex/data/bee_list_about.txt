@@ -1,0 +1,16 @@
+Taken from ITIS.gov "Bee Checklist"
+http://www.itis.gov/beechecklist.html
+
+Adapted from the ITIS World Bee Species Excel Spreadsheet:
+
+http://www.itis.gov/downloads/bees/BeeSpeciesWorldChecklist_ITIS_2008-10-03.xls
+
+Credits:
+
+This five-year project was led by Michael Ruggiero, ITIS, United States.
+
+Principal scientific contributors to the World Bee Checklist project include John S. Ascher, American Museum of Natural History, United States; Connal Eardley, Plant Protection Research Institute, South Africa; Terry Griswold, U.S. Department of Agriculture, United States; Gabriel Melo, Federal University of Parana, Brazil; Andrew Polaszek, Natural History Museum, United Kingdom; Osamu Tadauchi, University of Kyushu, Japan; Ken Walker, Museum Victoria, Australia; Natapot Warrit, Smithsonian Institution, United States; and Paul Williams, Natural History Museum, United Kingdom.
+
+Principal technical contributors to the project include David Nicolson, U.S. Geological Survey, United States; John Pickering, Discover Life and University of Georgia, United States; and David Remsen, Global Biodiversity Information Facility, Denmark.
+
+Major supporters of the project were the U.S. based National Biological Information Infrastructure, a broad, collaborative program that provided increased access to data and information on the nation’s biological resources and the Global Biodiversity Information Facility, Copenhagen, Denmark, which is dedicated to making global biodiversity data accessible anywhere in the world.

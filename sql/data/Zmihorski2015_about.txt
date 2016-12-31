@@ -1,0 +1,33 @@
+Data from:
+
+Żmihorski M, Pärt T, Gustafson T, Berg Å (2015) Data from: Effects of water level and grassland management on alpha and beta diversity of wet grassland birds in restored wetlands. Journal of Applied Ecology, online in advance of print. http://dx.doi.org/10.1111/1365-2664.12588
+
+Downloaded from Dryad data:
+
+Berg Å, Żmihorski M, Pärt T, Gustafson T (2015) Data from: Effects of water level and grassland management on alpha and beta diversity of wet grassland birds in restored wetlands. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.gd126
+
+Description of fields:
+
+Area (name of the wetland area), 
+Year (year of bird count),
+Ycoord (latitude of the point count site), 
+Xcoord (longitude of the point count site), 
+PointID (specific name of each point count site), 
+Species.richness (number of species out of 38 wet grassland birds), 
+Share.grassland (proportion of grasslands within 100m of point count site), 
+Share.arable (proportion of arable land within 100m of point count site), 
+Grassland.grazed (proportion of grazed grassland within 100m of point count site), 
+Grassland.mowed (proportion of mowed grassland within 100m of point count site), 
+Grassland.unmanaged (proportion of unmanaged grassland within 100m of point count site), 
+PC1 (first axes of PCA),	
+PC2 (second axes of PCA), 
+PC3 (third axes of PCA),	
+FOR250 (proportion of forest within 250m of point count site), 
+WAT250 (proportion of water area within 250m of point count site), 
+B.WET (basic wetness), 
+FLOOD (degree of flooding), 
+SHORT.VEG (proportion of short vegetation within 100m of point count site), 
+Management.type (dominating management type on grassland), 
+Flooding.binary (occurrence of flooding or not),
+Reedbunting, Sedgewarbler, Commonredshank, Mallard, Meadowpipit, Snipe, Whinchat, Yellowwagtail, Lapwing, Skylark, BlacktailedGodwit, Curlew (abundances of these 12 wet grassland birds).
+

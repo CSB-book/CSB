@@ -1,0 +1,94 @@
+\documentclass[11pt,letterpaper]{moderncv}
+% moderncv themes
+\moderncvtheme[orange]{casual}
+% character encoding
+\usepackage[utf8]{inputenc}
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\usepackage{libertine}
+%----------------------------------------------------------------------------------------
+%	Personal Info
+%----------------------------------------------------------------------------------------
+\firstname{Stefano}
+\familyname{Allesina}
+%\title{CV title (optional)}
+\address{Department of Ecology \& Evolution, University of Chicago}{1101 E. 57th Chicago IL 60637 USA}
+%\mobile{+121313213213213} 
+%\phone{+121313213213213}
+%\fax{+121313213213213}
+\email{sallesina@uchicago.edu}
+\homepage{allesinalab.uchicago.edu}
+%\extrainfo{additional information (optional)}
+%\photo[64pt][0.4pt]{picture} % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)} % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\begin{document}
+\maketitle
+
+%----------------------------------------------------------------------------------
+% Position
+%----------------------------------------------------------------------------------
+\section{Academic Appointments}
+\cventry{2014--}{University of Chicago}{Dept. Ecology \& Evolution and Computation
+  Institute}{Professor}{}{}  % arguments 3 to 6 can be left empty
+
+\cventry{2009--2014}{University of Chicago}{Dept. Ecology \& Evolution and Computation
+  Institute}{Assistant Professor}{}{}
+  
+\cventry{2007--2009}{University of California Santa
+  Barbara}{NCEAS}{Postdoctoral Associate}{}{} 
+  
+\cventry{2005--2007}{University of Michigan}{Mercedes Pascual
+  Laboratory}{Postdoctoral Fellow}{}{}
+  
+\cventry{2004--2005}{Michigan State University and NOAA}{Scott Peacor
+  Laboratory}{Postdoctoral Fellow}{}{}
+
+%----------------------------------------------------------------------------------
+% Education
+%----------------------------------------------------------------------------------
+\section{Education}
+\cventry{2002--2005}{Universit\`a di Parma,
+  Italy}{Ph.D.}{Ecology}{}{Advisor: Antonio Bodini}
+
+\cventry{1995--2001}{Universit\`a di Parma,
+  Italy}{Laurea}{Environmental Sciences}{}{Advisor: Alessandro Zaccagnini}
+
+%----------------------------------------------------------------------------------
+% Pubs
+%----------------------------------------------------------------------------------
+\nocite{*}
+\bibliographystyle{unsrt}
+%\renewcommand\refname{Publications}
+\bibliography{../biblio.bib}
+
+%----------------------------------------------------------------------------------
+% Editing
+%----------------------------------------------------------------------------------
+\section{Editing}
+\cvline{2015-}{{PLoS Computational Biology} \textit{Associate Editor}}
+\cvline{2015-}{{Scientific Reports} \textit{Editor}}
+\cvline{2013-}{{Frontiers in Population Dynamics} \textit{Associate Editor}}
+\cvline{2012-}{{Journal of Complex Networks} \textit{Associate Editor}}
+\cvline{2009-}{{Oikos} \textit{Subject Editor}}
+
+%----------------------------------------------------------------------------------------
+%	Reviewing
+%----------------------------------------------------------------------------------------
+\section{Reviewing}
+Reviewer for more than 50 journals and funding agencies, including:
+American Naturalist, Ecological Monographs,
+Ecology, Ecology Letters, National Science Foundation, Nature, Nature
+Communications, Nature Methods, NERC, Oikos, PLoS Biology, PLoS One,
+Proceedings of the National Academy of Sciences USA, Science, Trends in Ecology \&
+Evolution.
+%----------------------------------------------------------------------------------------
+%	Add other sections, such as grants, talks, etc.
+%----------------------------------------------------------------------------------------
+
+\end{document}

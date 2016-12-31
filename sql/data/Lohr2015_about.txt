@@ -1,0 +1,9 @@
+Data from:
+
+Lohr JN, Haag CR (2015) Genetic load, inbreeding depression and hybrid vigor covary with population size: an empirical evaluation of theoretical predictions. Evolution, online in advance of print. http://dx.doi.org/10.1111/evo.12802
+
+Data downloaded from Dryad:
+Lohr JN, Haag CR (2015) Data from: Genetic load, inbreeding depression and hybrid vigor covary with population size: an empirical evaluation of theoretical predictions. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.2cq7r
+
+We took the file life_history.csv and reformatted and manipulated it for easy import into sqlite3.
+
