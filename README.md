@@ -3,7 +3,7 @@ Material for "Computing Skills for Biologists", by Stefano Allesina & Madlen Wil
 
 ## Downloading the material 1: Install `Git`
 
-To download all the material, you first need to install `Git`. The instructions are [here](github.com/CSB-book/CSB/blob/master/git/installation/install.md).
+To download all the material, you first need to install `Git`. The instructions are [here](https://github.com/CSB-book/CSB/blob/master/git/installation/install.md).
 
 Once you have installed `Git`, open a Terminal:
 
