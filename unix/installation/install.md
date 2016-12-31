@@ -11,5 +11,5 @@ No installation is required. However, you might want to improve the appearance b
 
 ## Windows
 
-You can use the `Git Bash` terminal, which is installed with `Git` (which you will need for the next Chapter anyway). You can find instructions for the installation [here](github.com/CSB-book/CSB/blob/master/git/installation/install.md).
+You can use the `Git Bash` terminal, which is installed with `Git` (which you will need for the next Chapter anyway). You can find instructions for the installation [here](https://github.com/CSB-book/CSB/blob/master/git/installation/install.md).
 
