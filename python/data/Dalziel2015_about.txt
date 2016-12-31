@@ -1,0 +1,12 @@
+Data adapted from:
+
+Dalziel BD, Bjornstad O, van Panhuis WG, Burke DS, Metcalf CJE,
+Grenfell BT (2015) Data from: Persistent chaos of measles epidemics in
+the prevaccination United States caused by a small change in seasonal
+transmission patterns. Dryad Digital
+Repository. http://dx.doi.org/10.5061/dryad.r4q34
+
+The data is associated with the publication:
+
+
+

@@ -1,0 +1,9 @@
+Data from:
+
+Singh ND, Criscoe DR, Skolfield S, Kohl KP, Keebaugh ES, Schlenke TA (2015) Fruit flies diversify their offspring in response to parasite infection. Science 349(6249): 747-750. http://dx.doi.org/10.1126/science.aab1768
+Additionally, please cite the Dryad data package:
+
+Adapted from Data Dryad repository:
+
+Singh ND, Criscoe DR, Skolfield S, Kohl KP, Keebaugh ES, Schlenke TA (2015) Data from: Fruit flies diversify their offspring in response to parasite infection. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.8jj28
+

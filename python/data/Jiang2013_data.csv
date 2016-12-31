@@ -1,0 +1,523 @@
+Scientific Name	Taxon	Trait	r	SampleSize	Source
+Acanthurus glaucoparieus	Fish	size	-0.11	12	Robertson 1985
+Acanthurus leucosternon	Fish	size	0.38	15	Robertson 1985
+Acanthurus nigrofuscus	Fish	size	0.51	13	Robertson 1985
+Agalychnis callidryas	Amphibian	size	0.868	10	Briggs 2007
+Agalychnis callidryas	Amphibian	size	0.297	5	Briggs 2007
+Agalychnis callidryas	Amphibian	size	0.084	15	Briggs 2007
+Agalychnis callidryas	Amphibian	size	0.121	15	Briggs 2007
+Agalychnis callidryas	Amphibian	size	0.114	39	Briggs 2007
+Agalychnis callidryas	Amphibian	size	0.021	39	Briggs 2007
+Agalychnis callidryas	Amphibian	size	0.704	64	Briggs 2007
+Agalychnis callidryas	Amphibian	size	0.28	59	Briggs 2007
+Agalychnis moreletii	Amphibian	size	0.515	9	Briggs 2007
+Agalychnis moreletii	Amphibian	size	0.112	9	Briggs 2007
+Agalychnis moreletii	Amphibian	size	0.329	43	Briggs 2007
+Agalychnis moreletii	Amphibian	size	0.132	43	Briggs 2007
+Agalychnis moreletii	Amphibian	size	0.417	54	Briggs 2007
+Agalychnis moreletii	Amphibian	size	-0.152	52	Briggs 2007
+Agelena limbata	Chelicerate	size	0.473	40	Masumoto 1999
+Agelena limbata	Chelicerate	size	0.415	25	Masumoto 1999
+Agelena limbata	Chelicerate	size	0.685	20	Masumoto 1999
+Agelena limbata	Chelicerate	size	0.558	17	Masumoto 1999
+Agelena limbata	Chelicerate	size	0.471	40	Masumoto 1999
+Agelena limbata	Chelicerate	size	0.303	25	Masumoto 1999
+Agelena limbata	Chelicerate	size	0.689	20	Masumoto 1999
+Agelena limbata	Chelicerate	size	0.284	17	Masumoto 1999
+Alca torda	Bird	size	0.38	36	Wagner 1999
+Alpheus heterochaelis	Crustacean	size	0.864	191	Hughes 1996
+Alytes cisternasii	Amphibian	size	0.41	31	Márquez 1993
+Alytes obstetricans	Amphibian	size	0.22	13	Márquez 1993
+Anous stolidus	Bird	size	0.51	34	Chardine and Morris 1989
+Archocentrus nigrofasciatus	Fish	size	0.469	40	Beeching et al. 2004
+Arianta arbustorum	Gastropod	size	0.245	35	Baur 1992
+Artemia salina	Crustacean	size	-0.11	48	Forbes et al. 1992
+Artemia salina	Crustacean	size	0.74	16	Forbes et al. 1992
+Artemia salina	Crustacean	size	0.42	12	Forbes et al. 1992
+Artemia salina	Crustacean	size	0.56	34	Forbes et al. 1992
+Asellus aquaticus	Crustacean	size	0.32	93	Adams et al. 1985b
+Asellus aquaticus	Crustacean	size	0.82	15	Adams et al. 1985b
+Asellus aquaticus	Crustacean	size	0.44	16	Adams et al. 1985b
+Asellus aquaticus	Crustacean	size	0.75	17	Adams et al. 1985b
+Asellus aquaticus	Crustacean	size	0.73	16	Adams et al. 1985b
+Asellus aquaticus	Crustacean	size	0.85	12	Adams et al. 1985b
+Asellus aquaticus	Crustacean	size	0.52	11	Adams et al. 1985b
+Asellus aquaticus	Crustacean	size	0.61	21	Adams et al. 1985b
+Asellus aquaticus	Crustacean	size	0.16	20	Adams et al. 1985b
+Asellus aquaticus	Crustacean	size	0.59	160	Hargeby and Erlandsson 2006
+Asellus aquaticus	Crustacean	size	0.4123105626	40	Hargeby and Erlandsson 2006
+Asellus aquaticus	Crustacean	size	0.6633249581	40	Hargeby and Erlandsson 2006
+Asellus aquaticus	Crustacean	size	0.5099019514	40	Hargeby and Erlandsson 2006
+Asellus aquaticus	Crustacean	size	0.7141428429	40	Hargeby and Erlandsson 2006
+Asellus aquaticus	Crustacean	size	0.55	11	Ridley and Thompson 1979
+Asellus aquaticus	Crustacean	size	0.15	24	Ridley and Thompson 1979
+Asellus aquaticus	Crustacean	size	0.18	4	Ridley and Thompson 1979
+Asellus aquaticus	Crustacean	size	0.32	8	Ridley and Thompson 1979
+Asellus aquaticus	Crustacean	size	0.62	20	Ridley and Thompson 1979
+Asellus aquaticus	Crustacean	size	0	6	Ridley and Thompson 1979
+Asellus aquaticus	Crustacean	size	-0.15	9	Ridley and Thompson 1979
+Asellus aquaticus	Crustacean	size	0.37	108	Ridley and Thompson 1979
+Asellus aquaticus	Crustacean	size	0.27	123	Ridley and Thompson 1979
+Asellus aquaticus	Crustacean	size	0.57	25	Ridley and Thompson 1979
+Brachinus lateralis	Crustacean	size	0.315	52	Juliano 1985
+Brachinus lateralis	Crustacean	size	0.302	54	Juliano 1985
+Branta bernicla	Bird	size	0.387	35	Poisbleau et al. 2006
+Branta bernicla	Bird	size	-0.081	16	Poisbleau et al. 2006
+Branta bernicla	Bird	size	0.219	19	Poisbleau et al. 2006
+Branta bernicla	Bird	size	0.388	19	Poisbleau et al. 2006
+Branta bernicla	Bird	size	0.5	16	Poisbleau et al. 2006
+Bufo americanus	Amphibian	size	-0.49	129	Howard et al. 1994
+Bufo americanus	Amphibian	size	0.18	63	Kruse 1981
+Bufo americanus	Amphibian	size	-0.098	7	Wilbur et al. 1978
+Bufo boreas	Amphibian	size	0.57	4	Olson et al. 1986
+Bufo boreas	Amphibian	size	0.39	28	Olson et al. 1986
+Bufo boreas	Amphibian	size	0.46	38	Olson et al. 1986
+Bufo boreas	Amphibian	size	0.49	44	Olson et al. 1986
+Bufo boreas	Amphibian	size	0.11	10	Olson et al. 1986
+Bufo boreas	Amphibian	size	0.34	14	Olson et al. 1986
+Bufo boreas	Amphibian	size	0.64	13	Olson et al. 1986
+Bufo boreas	Amphibian	size	-0.06	3	Olson et al. 1986
+Bufo boreas	Amphibian	size	0.48	12	Olson et al. 1986
+Bufo boreas	Amphibian	size	0.13	21	Olson et al. 1986
+Bufo boreas	Amphibian	size	0.14	37	Olson et al. 1986
+Bufo boreas	Amphibian	size	0.25	18	Olson et al. 1986
+Bufo boreas	Amphibian	size	-0.15	16	Olson et al. 1986
+Bufo boreas	Amphibian	size	-0.32	15	Olson et al. 1986
+Bufo bufo	Amphibian	size	-0.05	64	Arntzen 1999
+Bufo bufo	Amphibian	size	0.32	25	Arntzen 1999
+Bufo bufo	Amphibian	size	0.35	49	Arntzen 1999
+Bufo bufo	Amphibian	size	0.18	22	Arntzen 1999
+Bufo bufo	Amphibian	size	0.567	16	Davies and Halliday 1977
+Bufo bufo	Amphibian	size	0.028	28	Marco and Lizana 2002
+Bufo calamita	Amphibian	size	0.121	30	Arak 1988
+Bufo cognatus	Amphibian	size	0.09	24	Sullivan 1983a
+Bufo periglenes	Amphibian	size	0.59	9	Jacobson and Vandenberg 1991
+Bufo periglenes	Amphibian	size	0.35	37	Jacobson and Vandenberg 1991
+Bufo quercicus	Amphibian	size	-0.23	25	Wilbur et al. 1978
+Bufo quercicus	Amphibian	size	0.32	13	Wilbur et al. 1978
+Bufo quercicus	Amphibian	size	0.11	20	Wilbur et al. 1978
+Bufo stejnegeri 	Amphibian	size	0.215	96	Lee and Park 2009
+Bufo stejnegeri 	Amphibian	size	0.322	26	Lee and Park 2009
+Bufo stejnegeri 	Amphibian	size	0.265	33	Lee and Park 2009
+Bufo stejnegeri 	Amphibian	size	0.35	30	Lee and Park 2009
+Bufo stejnegeri 	Amphibian	size	0.054	96	Lee and Park 2009
+Bufo stejnegeri 	Amphibian	size	0.172	26	Lee and Park 2009
+Bufo stejnegeri 	Amphibian	size	0.247	33	Lee and Park 2009
+Bufo stejnegeri 	Amphibian	size	0.448	30	Lee and Park 2009
+Bufo terrestris	Amphibian	size	-0.46	4	Wilbur et al. 1978
+Bufo typhonius	Amphibian	size	0.13	64	Wells 1979
+Bufo valliceps	Amphibian	size	0.097	52	Lee and Salzburg 1989
+Bufo valliceps	Amphibian	size	0.3	12	Lee and Salzburg 1989
+Bufo valliceps	Amphibian	size	0.39	6	Lee and Salzburg 1989
+Bufo valliceps	Amphibian	size	-0.13	38	Wagner and Sullivan 1995
+Bufo valliceps	Amphibian	size	-0.68	8	Wagner and Sullivan 1995
+Bufo valliceps	Amphibian	size	0.12	48	Wagner and Sullivan 1995
+Bufo valliceps	Amphibian	size	-0.06	10	Wagner and Sullivan 1995
+Bufo woodhousei	Amphibian	size	0.02	18	Sullivan 1982
+Bufo woodhousei	Amphibian	size	0.23	47	Sullivan 1983b
+Bufo woodhousei	Amphibian	size	0.07	27	Woodward 1982
+Bufo woodhousei	Amphibian	size	0.13	80	Woodward 1982
+Bufo woodhousei	Amphibian	size	0.33	17	Woodward 1982
+Bulla gouldiana	Gastropod	size	0.082	41	Chaine and Angeloni 2005
+Caecidotea intermedius	Crustacean	size	0.5	247	Sparkes et al. 2006
+Caecidotea intermedius	Crustacean	size	0.31	144	Sparkes et al. 2006
+Caecidotea intermedius	Crustacean	size	0.56	86	Sparkes et al. 2006
+Caecidotea intermedius	Crustacean	size	0.27	28	Sparkes et al. 2006
+Carduelis tristis	Bird	size	-0.2	22	MacDougall and Montgomerie 2003
+Catharacta skua	Bird	size	0.22	61	Catry et al. 1999
+Cepphus grylle	Bird	size	0.2	9	Berzins et al. 2009
+Chaetodon lunulatus	Fish	size	0.69	12	Pratchett 2006
+Chaetodon melannotus	Fish	size	0.25	21	Pratchett 2006
+Chamaeleo chamaeleon	Reptile	size	0	31	Cuadrado 1999
+Chamaeleo chamaeleon	Reptile	size	0.28	31	Cuadrado 1999
+Chamaeleo chamaeleon	Reptile	size	-0.4	20	Cuadrado 1999
+Charadrius dubius	Bird	size	0.39	18	Hedenstrom 1987
+Chauliognathus pennsylvanicus	Insect	size	0.331	221	McCauley and Wade 1978
+Chionoecetes opilio	Crustacean	size	0.46	28	Comeau et al. 1998
+Chionoecetes opilio	Crustacean	size	-0.94	3	Comeau et al. 1998
+Chionoecetes opilio	Crustacean	size	0.61	36	Comeau et al. 1998
+Chionoecetes opilio	Crustacean	size	0.4	86	Comeau et al. 1998
+Chionoecetes opilio	Crustacean	size	0.26	568	Comeau et al. 1998
+Chionoecetes opilio	Crustacean	size	0.1	159	Comeau et al. 1998
+Chionoecetes opilio	Crustacean	size	0.07	88	Comeau et al. 1998
+Chionoecetes opilio	Crustacean	size	0.78	6	Comeau et al. 1998
+Chionoecetes opilio	Crustacean	size	0.14	41	Comeau et al. 1998
+Chlidonias hybrida	Bird	size	-0.03	55	Ledwoń 2011
+Chrysolina aurichalcea	Insect	size	-0.311	51	Kasuya 1985
+Chrysolina aurichalcea	Insect	size	-0.275	51	Kasuya 1985
+Cicindela marutha	Crustacean	size	0.36	58	Kraus and Lederhouse 1983
+Cicindela marutha	Crustacean	size	0.33	58	Kraus and Lederhouse 1983
+Claeoderes bivittata	Insect	size	0.323	52	Johnson 1983
+Colias eurytheme	Insect	size	0.109	95	Kemp et al. 2006
+Columba livia	Bird	size	0.16	32	Johnston and Johnston 1989
+Columba livia	Bird	size	0.37	32	Johnston and Johnston 1989
+Coracias garrulus	Bird	size	0.42	26	Silva et al. 2008
+Cyanistes caeruleus	Bird	size	0.131	107	Garcia-Navas et al. 2009
+Diaprepes abbreviatus	Insect	size	0.666	201	Harari et al. 1999
+Diaprepes abbreviatus	Insect	size	0.49	201	Harari et al. 1999
+Diaprepes abbreviatus	Insect	size	0.6	201	Harari et al. 1999
+Gammarus locusta	Crustacean	size	0.914	62	Crozier and Snyder 1923
+Dikerogammarus villosus	Crustacean	size	0.5	169	Devin et al. 2004
+Dikerogammarus villosus	Crustacean	size	0.51	501	Devin et al. 2004
+Drosophila melanogaster	Insect	size	0.01	30	Partridge et al. 1987
+Drosophila melanogaster	Insect	size	0.37	18	Partridge et al. 1987
+Drosophila pseudoobscura	Insect	size	0.41	25	Partridge et al. 1987
+Drosophila pseudoobscura	Insect	size	0.05	8	Partridge et al. 1987
+Drosophila pseudoobscura	Insect	size	-0.06	12	Partridge et al. 1987
+Drosophila pseudoobscura	Insect	size	-0.06	36	Partridge et al. 1987
+Drosophila pseudoobscura	Insect	size	0.14	75	Partridge et al. 1987
+Drosophila pseudoobscura	Insect	size	-0.05	50	Partridge et al. 1987
+Drosophila pseudoobscura	Insect	size	-0.03	5	Partridge et al. 1987
+Drosophila pseudoobscura	Insect	size	0.02	36	Partridge et al. 1987
+Dryomyza anilis	Insect	size	0.085	57	Otronen 1984
+Echinogammarus marinus	Crustacean	size	0.25	68	Dick and Elwood 1996
+Echinogammarus marinus	Crustacean	size	0.35	63	Dick and Elwood 1996
+Echinogammarus marinus	Crustacean	size	0.37	34	Dick and Elwood 1996
+Echinogammarus marinus	Crustacean	size	0.44	79	Dick and Elwood 1996
+Echinogammarus marinus	Crustacean	size	0.5	27	Dick and Elwood 1996
+Echinogammarus marinus	Crustacean	size	0.53	33	Dick and Elwood 1996
+Eogammarus oclairi	Crustacean	size	0.2	28	Iribarne 1996
+Eogammarus oclairi	Crustacean	size	0.7	162	Iribarne 1996
+Eogammarus oclairi	Crustacean	size	0.1	22	Iribarne 1996
+Eogammarus oclairi	Crustacean	size	0.5	121	Iribarne 1996
+Epicauta ochrea	Crustacean	size	0.479	29	Pinto and Mayor 1986
+Epicauta pennsylvanica	Insect	size	0.72	20	McLain 1982
+Eretmodus cyanostictus	Fish	size	0.596	63	Morley and Balshine 2003
+Eretmodus cyanostictus	Fish	size	0.73	77	Taborsky et al. 2009
+Esenia fetida	Annelids	size	0.2	104	Monroy et al. 2005
+Eumomota superciliosa	Bird	size	0.2449489743	59	Murphy 2008
+Eurema hecabe	Insect	size	0.256	161	Kemp 2008
+Falco columbarius	Bird	size	0.1325	90	Warkentin 1992
+Falco columbarius	Bird	size	-0.0401	90	Warkentin 1992
+Falco sparverius	Bird	size	0.074	37	Bortolotti and Iko 1992
+Falco sparverius	Bird	size	-0.168	54	Bortolotti and Iko 1992
+Falco sparverius	Bird	size	0.116	88	Bortolotti and Iko 1992
+Falco sparverius	Bird	size	-0.227	20	Bowman 1987
+Ficedula hypoleuca	Bird	size	0.05	273	Potti 2000
+Gammarus aequicauda	Crustacean	size	0.434	73	Thomas et al. 1998
+Gammarus duebeni	Crustacean	size	0.47	288	Ward 1985
+Gammarus insensibilis	Crustacean	size	0.02	100	Fauchier and Thomas 2001
+Gammarus insensibilis	Crustacean	size	-0.089	52	Fauchier and Thomas 2001
+Gammarus insensibilis	Crustacean	size	0.06	33	Fauchier and Thomas 2001
+Gammarus insensibilis	Crustacean	size	0.467	214	Thomas et al. 1995
+Gammarus insensibilis	Crustacean	size	0.12	74	Thomas et al. 1996a
+Gammarus insensibilis	Crustacean	size	0.57	75	Thomas et al. 1996a
+Gammarus insensibilis	Crustacean	size	0.558	94	Thomas et al. 1996b
+Gammarus insensibilis	Crustacean	size	0.422	24	Thomas et al. 1996b
+Gammarus insensibilis	Crustacean	size	0.413	25	Thomas et al. 1996b
+Gammarus leopoliensis	Crustacean	size	0.85	44	Zielinski 1998
+Gammarus pulex	Crustacean	size	0.23	53	Adams and Greenwood 1983
+Gammarus pulex	Crustacean	size	0.136	14	Birkhead and Clarkson 1980
+Gammarus pulex	Crustacean	size	0.631	12	Birkhead and Clarkson 1980
+Gammarus pulex	Crustacean	size	-0.303	7	Birkhead and Clarkson 1980
+Gammarus pulex	Crustacean	size	0.771	6	Birkhead and Clarkson 1980
+Gammarus pulex	Crustacean	size	0.52	14	Birkhead and Clarkson 1980
+Gammarus pulex	Crustacean	size	0.287	5	Birkhead and Clarkson 1980
+Gammarus pulex	Crustacean	size	0.618	15	Birkhead and Clarkson 1980
+Gammarus pulex	Crustacean	size	0.431	7	Birkhead and Clarkson 1980
+Gammarus pulex	Crustacean	size	0.382	9	Birkhead and Clarkson 1980
+Gammarus pulex	Crustacean	size	0.529	46	Bollache and Cezilly 2004
+Gammarus pulex	Crustacean	size	0.302	66	Bollache and Cezilly 2004
+Gammarus pulex	Crustacean	size	0.302	78	Bollache and Cezilly 2004
+Gammarus pulex	Crustacean	size	0.13	66	Bollache and Cezilly 2004
+Gammarus pulex	Crustacean	size	0.124	46	Bollache and Cezilly 2004
+Gammarus pulex	Crustacean	size	0.32	62	Franceschi et al. 2010
+Gammarus pulex	Crustacean	size	0.28	159	Franceschi et al. 2010
+Gammarus pulex	Crustacean	size	0.56	93	Greenwood and Adams 1984
+Gammarus pulex	Crustacean	size	0.388	50	Hume et al. 2002
+Gammarus pulex	Crustacean	size	0.355	53	Hume et al. 2002
+Gammarus pulex	Crustacean	size	0.283	74	Hume et al. 2002
+Gammarus pulex	Crustacean	size	0.458	71	Hume et al. 2002
+Gammarus pulex	Crustacean	size	0.508	45	Plaistow et al. 2004
+Gammarus Pulex	Crustacean	size	0.47	983	Ward 1986
+Gammarus Pulex	Crustacean	size	0.29	229	Ward 1986
+Gammarus pulex 	Crustacean	size	0.49	58	Tompson and Moule 1983
+Gammarus pulex 	Crustacean	size	0.53	46	Tompson and Moule 1983
+Gammarus pulex 	Crustacean	size	0.38	115	Tompson and Moule 1983
+Gammarus zaddachi	Crustacean	size	0.392	83	Willams 2007
+Gammarus zaddachi	Crustacean	size	0.316	82	Willams 2007
+Gammarus zaddachi	Crustacean	size	0.379	83	Willams 2007
+Gammarus zaddachi	Crustacean	size	0.539	82	Willams 2007
+Gasterosteus aculeatus	Fish	size	0.281699909	31	Vines and Schluter 2006
+Geospiza fortis	Bird	size	0.14	40	Boag 1983
+Geospiza fortis	Bird	size	-0.15	23	Boag 1983
+Geospiza fortis	Bird	size	0.16	40	Boag and Grant 1978
+Geospiza fortis	Bird	size	0.16	21	Boag and Grant 1978
+Geospiza fortis	Bird	size	0.123	243	Grant and Grant 2008
+Geospiza scandens	Bird	size	0.24	16	Boag 1983
+Geospiza scandens	Bird	size	-0.47	11	Boag 1983
+Geospiza scandens	Bird	size	-0.39	20	Boag 1983
+Paramecium caudatum	Protist	size	0.7941	12	Pearl 1906
+Paramecium caudatum	Protist	size	0.7249	101	Pearl 1906
+Diderogammarus fasciatus	Crustacean	size	0.69	71	Crozier and Snyder 1923
+Gerris buenoi	Insect	size	-0.134	20	Fairbairn 1988
+Gerris buenoi	Insect	size	0.168	18	Fairbairn 1988
+Gerris buenoi	Insect	size	0.035	36	Fairbairn 1988
+Gerris comatus	Insect	size	0.262	16	Fairbairn 1988
+Gerris comatus	Insect	size	-0.142	22	Fairbairn 1988
+Gerris comatus	Insect	size	0.291	10	Fairbairn 1988
+Gerris comatus	Insect	size	0.332	12	Fairbairn 1988
+Gerris comatus	Insect	size	0.0074	11	Fairbairn 1988
+Gerris comatus	Insect	size	0.47	20	Fairbairn 1988
+Paramecium caudatum	Protist	size	0.5882	200	Pearl 1906
+Paramecium caudatum	Protist	size	0.5327	105	Pearl 1906
+Gerris remigis	Insect	size	0.516	12	Arnqvist 1996
+Gerris remigis	Insect	size	0.482	13	Arnqvist 1996
+Paramecium caudatum	Protist	size	0.4302	16	Pearl 1906
+Gerris remigis	Insect	size	0.398	24	Arnqvist 1996
+Gerris remigis	Insect	size	0.364	21	Arnqvist 1996
+Gerris remigis	Insect	size	0.287	20	Arnqvist 1996
+Gerris buenoi	Insect	size	0.279	63	Arnqvist 1996
+Gerris odontogaster	Insect	size	0.254	80	Arnqvist 1996
+Gerris remigis	Insect	size	0.233	22	Arnqvist 1996
+Gerris remigis	Insect	size	0.231	41	Arnqvist 1996
+Gerris remigis	Insect	size	0.226	28	Arnqvist 1996
+Gerris buenoi	Insect	size	0.199	25	Arnqvist 1996
+Gerris odontogaster	Insect	size	0.178	54	Arnqvist 1996
+Gerris lacustris	Insect	size	0.162	108	Arnqvist 1996
+Gerris lateralis	Insect	size	0.153	80	Arnqvist 1996
+Gerris odontogaster	Insect	size	0.141	75	Arnqvist 1996
+Gerris remigis	Insect	size	0.122	24	Arnqvist 1996
+Gerris remigis	Insect	size	0.122	14	Arnqvist 1996
+Gerris remigis	Insect	size	0.095	29	Arnqvist 1996
+Gerris odontogaster	Insect	size	0.088	80	Arnqvist 1996
+Gerris remigis	Insect	size	0.07	18	Arnqvist 1996
+Gerris remigis	Insect	size	0.048	26	Arnqvist 1996
+Gerris odontogaster	Insect	size	0.047	77	Arnqvist 1996
+Gerris remigis	Insect	size	0.214	100	Fairbairn 1988
+Gerris remigis	Insect	size	0.15	46	Fairbairn 1988
+Gymnorhinus cyanocephalus	Bird	size	0.09	32	Marzluff and Balda 1988
+Gymnorhinus cyanocephalus	Bird	size	0.21	25	Marzluff and Balda 1988
+Helix pomatia	Gastropod	size	0.19	83	Baur 1992
+Hippocampus guttulatus	Fish	size	0.63	15	Naud et al. 2009
+Hippocampus subelongatus	Fish	size	0.47	22	Jones et al. 2003
+Hippocampus whitei	Fish	size	0.52	22	Vincent and Giles 2003
+Hyalella azteca	Crustacean	size	-0.043	53	Wen 1993
+Hyalella azteca	Crustacean	size	-0.104	48	Wen 1993
+Hyalella castroi	Crustacean	size	0.42	77	Castiglioni and Bond-Buckup 2008
+Hyalella pleoacuta	Crustacean	size	0.52	491	Castiglioni and Bond-Buckup 2008
+Hyla arborea	Amphibian	size	-0.362	22	Friedl and Klump 2005
+Hyla arborea	Amphibian	size	-0.254	30	Friedl and Klump 2005
+Hyla arborea	Amphibian	size	0.027	19	Friedl and Klump 2005
+Hyla arborea	Amphibian	size	-0.173	25	Friedl and Klump 2005
+Hyla chrysoscelis	Amphibian	size	-0.131	50	Godwin and Roble 1983
+Hyla cinerea	Amphibian	size	0.18	66	Gerhardt 1982
+Hyla cinerea	Amphibian	size	0.15	66	Gerhardt et al. 1987
+Hyla cinerea	Amphibian	size	0.02	52	Gerhardt et al. 1987
+Hyla cinerea	Amphibian	size	0.28	25	Gerhardt et al. 1987
+Hyla cinerea	Amphibian	size	0.17	70	Gerhardt et al. 1987
+Hyla cinerea	Amphibian	size	0.07	70	Gerhardt et al. 1987
+Hyla cinerea	Amphibian	size	0.3605551275	43	Gunzburger 2006
+Hyla crucifer	Amphibian	size	0.136	8	Gatz 1981
+Hyla elegans	Amphibian	size	0.415	51	Bastos and Haddad 1996
+Hyla elegans	Amphibian	size	0.189	51	Bastos and Haddad 1996
+Hyla marmorata	Amphibian	size	0.25	9	Lee and Crump 1981
+Hyla versicolor	Amphibian	size	0.212	9	Gatz 1981
+Hyla versicolor	Amphibian	size	0.763	6	Gatz 1981
+Hyperolius marmoratus	Amphibian	size	0.081	228	Dyson et al. 1992
+Hyperolius marmoratus	Amphibian	size	0.27	643	Telford and Dyson 1988
+Idotea balthica	Crustacean	size	0.32	23	Jormalainen et al. 1992
+Idotea balthica	Crustacean	size	-0.17	28	Jormalainen et al. 1992
+Inachus phalangium	Crustacean	size	0.99	44	Diesel 1988
+Ips pini	Insect	size	0.049	166	Teale et al. 1994
+Jaera albifrons	Crustacean	size	0.09	30	Veuille 1980
+Jaera ischiosetosa	Crustacean	size	0.37	84	Veuille 1986
+Jaera ischiosetosa	Crustacean	size	0.5	73	Veuille 1986
+Jaera ischiosetosa	Crustacean	size	0.58	85	Veuille 1986
+Jaera ischiosetosa	Crustacean	size	0.62	93	Veuille 1986
+Jaera ischiosetosa	Crustacean	size	0.52	108	Veuille 1986
+Jaera ischiosetosa	Crustacean	size	0.32	89	Veuille 1986
+Jaera ischiosetosa	Crustacean	size	0.34	58	Veuille 1986
+Jaera ischiosetosa	Crustacean	size	0.55	50	Veuille 1986
+Jaera ischiosetosa	Crustacean	size	0.79	32	Veuille 1986
+Jaera istri	Crustacean	size	0.09	103	Veuille 1980
+Jaera italica	Crustacean	size	0.017	99	Veuille 1980
+Jaera italica	Crustacean	size	0.317	83	Veuille 1980
+Jaera nordmanni	Crustacean	size	0.586	36	Veuille 1980
+Jesogammarus suwaensis	Crustacean	size	0.336	76	Kusano 1992
+Jesogammarus suwaensis	Crustacean	size	0.547	45	Kusano 1992
+Jesogammarus suwaensis	Crustacean	size	0.386	33	Kusano 1992
+Jesogammarus suwaensis	Crustacean	size	0.134	51	Kusano 1992
+Julidochromis ornatus	Fish	size	0.77	43	Awata and Kohda 2004
+Julidochromis ornatus	Fish	size	0.93	12	Awata and Kohda 2004
+Lacerta agilis	Reptile	size	0.37	214	Olsson 1993
+Lacerta vivipara	Reptile	size	0.26	26	Hofmann and Henle 2006
+Lacerta vivipara	Reptile	size	0.07	26	Hofmann and Henle 2006
+Lanius collurio	Bird	size	0.33	79	Tryjanowski and Simek 2005
+Limnadia badia	Crustacean	size	0.8246211251	11	Benvenuto et al. 2009
+Limosa limosa islandica	Bird	size	-0.45	27	Gunnarsson et al. 2012
+Limulus polyphemus	Crustacean	size	0.0316227766	102	Botton and Loveland 1992
+Limulus polyphemus	Crustacean	size	0.228035085	101	Botton and Loveland 1992
+Limulus polyphemus	Crustacean	size	0.0316227766	182	Botton and Loveland 1992
+Littoraria flava	Gastropod	size	0.39	177	Cardoso et al. 2007
+Littorina littorea	Gastropod	size	0.079	47	Saur 1990
+Littorina neglecta	Gastropod	size	0.361	30	Johnson 1999
+Locustella ochotensis	Bird	size	0.29	7	Nagata 1986
+Loxia curvirostra	Bird	size	-0.37	11	Groth 1993
+Loxia curvirostra	Bird	size	0.65	13	Groth 1993
+Lytta magister	Insect	size	0.75	7	Brown 1990
+Lytta magister	Insect	size	0.51	18	Brown 1990
+Lytta magister	Insect	size	0.47	6	Brown 1990
+Lytta magister	Insect	size	0.4	29	Brown 1990
+Lytta magister	Insect	size	0.43	25	Brown 1990
+Lytta magister	Insect	size	0.48	23	Brown 1990
+Lytta magister	Insect	size	0.65	25	Brown 1990
+Lytta magister	Insect	size	0.47	18	Brown 1990
+Lytta vulnerata	Crustacean	size	0.667	31	Pinto and Mayor 1986
+Magicicada cassini	Insect	size	0.02	431	Dybas and Lloyd 1962
+Magicicada septendecim	Insect	size	0.05	340	Dybas and Lloyd 1962
+Merops apiaster	Bird	size	0.09	209	Lessells and Ovenden 1989
+Mycteria leucocephala	Bird	size	0.7	39	Urfi and Kalam 2006
+Neacoryphus bicrucis	Insect	size	0.499	424	McLain and Shure 1987
+Necrophila americana	Insect	size	1	30	Knox and Scott 2006
+Nodilittorina radiata	Gastropod	size	0.353	44	Ito and Wada 2006
+Ololygon rubra	Amphibian	size	0.7549834435	52	Bourne 1993
+Oncorhynchus gorbuscha	Fish	size	0	1255	Dickerson et al. 2004
+Oncorhynchus gorbuscha	Fish	size	0	1092	Dickerson et al. 2004
+Oncorhynchus gorbuscha	Fish	size	0	1382	Dickerson et al. 2004
+Oncorhynchus gorbuscha	Fish	size	0.1673320053	1255	Dickerson et al. 2004
+Oncorhynchus gorbuscha	Fish	size	0	1092	Dickerson et al. 2004
+Oncorhynchus gorbuscha	Fish	size	0.071	1382	Dickerson et al. 2004
+Oncorhynchus gorbuscha	Fish	size	0.197	1255	Dickerson et al. 2004
+Oncorhynchus gorbuscha	Fish	size	0.179	1092	Dickerson et al. 2004
+Oncorhynchus gorbuscha	Fish	size	0.000	1255	Dickerson et al. 2004
+Oncorhynchus gorbuscha	Fish	size	0.184	1092	Dickerson et al. 2004
+Oncorhynchus gorbuscha	Fish	size	0.000	1382	Dickerson et al. 2004
+Oncorhynchus gorbuscha	Fish	size	0.148	1255	Dickerson et al. 2004
+Oncorhynchus gorbuscha	Fish	size	0.170	1092	Dickerson et al. 2004
+Onymacris bicolor	Insect	size	0.2049390153	99	Enders 1995
+Onymacris bicolor	Insect	size	0.0447213595	48	Enders 1995
+Onymacris bicolor	Insect	size	0.4171330723	26	Enders 1995
+Pachycheles rudis	Crustacean	size	0.93	114	Jensen 2011
+Paguritta harmsi	Crustacean	size	0.633	28	Patton and Robertson 1980
+Paracalliope fluviatilis	Crustacean	size	0.27	463	Lefebvre et al. 2005
+Paracalliope fluviatilis	Crustacean	size	0.9090454534	11	Sutherland et al. 2007
+Paracalliope fluviatilis	Crustacean	size	0.2236067977	10	Sutherland et al. 2007
+Paracalliope fluviatilis	Crustacean	size	0.5949789912	102	Sutherland et al. 2007
+Gerris remigis	Insect	size	0.047	44	Arnqvist 1996
+Gerris remigis	Insect	size	0.045	13	Arnqvist 1996
+Gerris remigis	Insect	size	0.015	16	Arnqvist 1996
+Gerris lateralis	Insect	size	0.01	31	Arnqvist 1996
+Gerris remigis	Insect	size	-0.026	12	Arnqvist 1996
+Passer domesticus	Bird	size	-0.29	12	Moreno-Rueda 2005
+Gerris buenoi	Insect	size	-0.049	20	Arnqvist 1996
+Gerris odontogaster	Insect	size	-0.095	79	Arnqvist 1996
+Gerris remigis	Insect	size	-0.1	38	Arnqvist 1996
+Gerris remigis	Insect	size	-0.156	12	Arnqvist 1996
+Gerris buenoi	Insect	size	-0.16	27	Arnqvist 1996
+Gerris odontogaster	Insect	size	-0.189	78	Arnqvist 1996
+Gerris remigis	Insect	size	-0.2	15	Arnqvist 1996
+Pelobates cultripes	Amphibian	size	0.18	10	Lizana et al 1994
+Phanaeus difformis	Insect	size	0.3605	42	Rasmussen 1994
+Phanaeus difformis	Insect	size	0.17321	138	Rasmussen 1994
+Phascolarctos cinereus	Mammal	size	0.009	30	Ellis and Bercovitch 2011
+Phidippus clarus	Chelicerate	size	0.5422176685	39	Hoefler et al. 2007
+Phyllobius maculicornis	Insect	size	-0.08	72	Larsson 1988
+Phyllomedusa rohdei	Amphibian	size	-0.08	48	Wogel et al. 2005
+Phyllomedusa rohdei	Amphibian	size	0.05	31	Wogel et al. 2005
+Phymata americana	Insect	size	0.208	79	Punzalan et al. 2008
+Phymata americana	Insect	size	0.0715	79	Punzalan et al. 2008
+Phymata americana	Insect	size	0.262	18	Punzalan et al. 2008
+Phymata fasciata	Insect	size	0.57	12	Dodson and Marshall 1984
+Phymata fasciata	Insect	size	0.52	12	Dodson and Marshall 1984
+Phymata fasciata	Insect	size	0.22	8	Dodson and Marshall 1984
+Phymata fasciata	Insect	size	0.23	14	Dodson and Marshall 1984
+Phymata wolffii	Insect	size	0.1	17	McLain and Boromisa 1987b
+Phymata wolffii	Insect	size	0.1	13	McLain and Boromisa 1987b
+Physalaemus enesefae	Amphibian	size	0.22	100	Tarano and Herrera 2003
+Physalaemus pustulosus	Amphibian	size	-0.1	65	Ryan 1983
+Plecia nearctica	Insect	size	0.36	140	Hieber and Cohen 1983
+Plecia nearctica	Insect	size	0.22	20	Thornhill 1980
+Plecia nearctica	Insect	size	0.35	20	Thornhill 1980
+Pomatoschistus minutus	Fish	size	0.342	15	Lindstrom 1992
+Pontonia mexicana	Crustacean	size	0.36	82	Baezaa et al. 2011
+Pterapogon kauderni	Fish	size	0.77	24	Kolm 2002
+Pygoscelis adeliae	Bird	size	0.034	18	Beaulieu et al. 2009
+Rana chensinensis	Amphibian	size	0.73	34	Lu et al. 2009
+Rana chensinensis	Amphibian	size	0.44	283	Lu et al. 2009
+Rana chensinensis	Amphibian	size	0.56	52	Lu et al. 2009
+Rana chensinensis	Amphibian	size	0.26	84	Lu et al. 2009
+Rana chensinensis	Amphibian	size	0.39	174	Lu et al. 2009
+Rana chensinensis	Amphibian	size	0.5	48	Lu et el. 2010
+Rana dalmatina	Amphibian	size	-0.218	32	Hettyey et al. 2005
+Rana dalmatina	Amphibian	size	0.071	17	Hettyey et al. 2005
+Rana dalmatina	Amphibian	size	-0.257	16	Hettyey et al. 2005
+Rana sylvatica	Amphibian	size	0.18	24	Berven 1981
+Rana sylvatica	Amphibian	size	0.34	16	Berven 1981
+Rana sylvatica	Amphibian	size	0.21	22	Berven 1981
+Rana sylvatica	Amphibian	size	0.17	34	Berven 1981
+Rana sylvatica	Amphibian	size	0.46	21	Berven 1981
+Rana sylvatica	Amphibian	size	0.06	23	Berven 1981
+Rana sylvatica	Amphibian	size	0.4	99	Berven 1981
+Rana sylvatica	Amphibian	size	0.22	83	Berven 1981
+Rana sylvatica	Amphibian	size	0.28	38	Berven 1981
+Rana sylvatica	Amphibian	size	0.09	35	Howard 1980
+Rana temporaria	Amphibian	size	0.143	10	Elmberg 1991
+Rana temporaria	Amphibian	size	0.336	10	Elmberg 1991
+Rana temporaria	Amphibian	size	-0.123	10	Elmberg 1991
+Rana temporaria	Amphibian	size	0.072	7	Elmberg 1991
+Rana temporaria	Amphibian	size	-0.432	7	Elmberg 1991
+Rana temporaria	Amphibian	size	-0.3	5	Elmberg 1991
+Rana temporaria	Amphibian	size	-0.003	10	Elmberg 1991
+Rana temporaria	Amphibian	size	0.123	10	Elmberg 1991
+Rana temporaria	Amphibian	size	-0.404	8	Elmberg 1991
+Rana temporaria	Amphibian	size	-0.427	7	Elmberg 1991
+Rana temporaria	Amphibian	size	0.838	6	Elmberg 1991
+Rana temporaria	Amphibian	size	-0.235	6	Elmberg 1991
+Rana temporaria	Amphibian	size	-0.385	8	Elmberg 1991
+Rana temporaria	Amphibian	size	-0.172	10	Elmberg 1991
+Rana temporaria	Amphibian	size	0.075	7	Elmberg 1991
+Rana temporaria	Amphibian	size	0.377	6	Elmberg 1991
+Rana temporaria	Amphibian	size	0.49	48	Vieites et al. 2004
+Rissa tridactyla	Bird	size	0.28	18	Helfenstein et al. 2004
+Salvelinus confluentus	Fish	size	0.37	64	Baxter 1997
+Salvelinus leucomaenis	Fish	size	0.636	20	Maekawa et al. 1994
+Salvelinus leucomaenis	Fish	size	0.765	11	Maekawa et al. 1994
+Scaphiopus bombifrons	Amphibian	size	0.269	10	Woodward 1982
+Scaphiopus couchi	Amphibian	size	0.286	28	Woodward 1982
+Scaphiopus couchi	Amphibian	size	0.143	19	Woodward 1982
+Scaphiopus couchi	Amphibian	size	0.2	13	Woodward 1982
+Scaphiopus multiplicatus	Amphibian	size	0.526	9	Woodward 1982
+Scatophaga stercoraria	Insect	size	0.013	78	Otronen 1993
+Scatophaga stercoraria	Insect	size	0.144	163	Otronen 1993
+Scatophaga stercoraria	Insect	size	0.171	226	Otronen 1993
+Scatophaga stercoraria	Insect	size	0.252	170	Otronen 1993
+Scinax centralis	Amphibian	size	0.549	11	Alcantara et al. 2007
+Scinax centralis	Amphibian	size	0.07	11	Alcantara et al. 2007
+Serranus tortugarum	Fish	size	0.74	87	Petersen and Fischer 1996
+Siphonaria capensis	Gastropod	size	0.75	17	Pal et al. 2006
+Siphonaria capensis	Gastropod	size	0.79	15	Pal et al. 2006
+Siphonaria capensis	Gastropod	size	0.77	32	Pal et al. 2006
+Speotyto cunicularia	Bird	size	0.32	27	Plumpton and Lutz 1994
+Spheniscus magellanicus	Bird	size	0.18	100	Forero et al. 2001
+Stercorarius parasiticus	Bird	size	0.28	67	Catry et al. 1999
+Stercorarius skua lonnbergi	Bird	size	-0.01	98	Phillips et al. 2002
+Sterna hirundo	Bird	size	-0.046	26	Apanius and Nisbet 2006
+Sterna hirundo	Bird	size	0.151	28	Nisbet et al. 2007
+Sturnus vulgaris	Bird	size	0.263	89	Komdeur et al. 2005
+Tachycineta bicolor	Bird	size	0.19	38	Wiggins 1990
+Taricha granulosa	Amphibian	size	-0.16	23	Janzen and Brodie 1989
+Taricha granulosa	Amphibian	size	-0.06	23	Janzen and Brodie 1989
+Tegrodera aloga	Insect	size	0.04	121	Snead and Alcock 1985
+Tegrodera erosa	Crustacean	size	0.325	27	Pinto and Mayor 1986
+Tetraopes tetrophthalmus	Insect	size	0.46	271	Mclain and Boromisa 1987a
+Tetraopes tetrophthalmus	Insect	size	0.08	65	Mclain and Boromisa 1987a
+Thamnophis sirtalis parietalis	Reptile	size	0.06	21	Shine et al. 2004
+Thamnophis sirtalis parietalis	Reptile	size	0.3	109	Shine et al. 2001
+Thermosphaeroma thermophilum	Crustacean	size	0.709	54	Shuster 1981
+Timarcha maritima	Insect	size	0.04	182	Thomas et al. 1999
+Trapezia ferruginea	Crustacean	size	0.54	23	Adams et al. 1985a
+Trapezia ferruginea	Crustacean	size	0.57	23	Adams et al. 1985a
+Triprion petasatus	Amphibian	size	0.55	16	Lee and Crump 1981
+Trirhabda canadensis	Insect	size	0.25	71	Brown 1993
+Uca capricornis	Crustacean	size	0.511	531	Detto and Backwell 2009
+Uca pugilator	Crustacean	size	0.39	85	Christy 1983
+Uca rapax	Crustacean	size	0.65	11	Greenspan 1980
+Uperoleia rugosa	Amphibian	size	0.97	15	Robertson 1986
+Uperoleia rugosa	Amphibian	size	0.97	15	Robertson 1986
+Uperoleia rugosa	Amphibian	size	0.84	42	Robertson 1986
+Valenciennea muralis	Fish	size	0.83	17	Pratchett 2006
+Valenciennea strigata 	Fish	size	0.77	15	Pratchett 2006
+Zebrasoma scopas	Fish	size	0.64	13	Robertson 1985
+Zebrasoma scopas	Fish	size	0.6	12	Robertson 1985
+
