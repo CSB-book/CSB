@@ -1,0 +1,34 @@
+Data published by:
+Herrmann V, McMahon SM, Detto M, Lutz JA, Davies SJ, Chang-Yang C, Anderson-Teixeira KJ (2016) Tree circumference dynamics in four forests characterized using automated dendrometer bands. PLOS ONE 11(12): e0169020. http://dx.doi.org/10.1371/journal.pone.0169020
+
+Data description:
+ADB_Data.csv
+Header: Description
+Site: Site where tree was located
+Band_number: Identification number of automated dendrometer band, unique to each tree
+Time_stamp: Date and time of record. Format YYYY-MM-DD HH:MM:SS. 24 Hours
+mm: Change in mm of the stem circumference since first reading.
+Band_temp: Temperature reading of the logger, measured at the band, in degrees Celsius.
+
+ADB_Trees.csv
+Header: Description
+Site: Site where tree was located
+Band_number: Identification number of automated dendrometer band, unique to each tree
+TreeID: Identification number of the tree, specific to each site
+Species: Species of the tree
+Band_diameter_cm: Diameter of the automated dendrometer band
+BarkThickness: Classification of bark thickness for purposes of this study (thin/ thick)
+Watered: if YES, tree was watered in irrigation experiment conducted at SERC
+Date.equipped: Date when automated dendrometer band was installed on tree (format MM/DD/YYY)
+Percent.good.data: Percentage of the data within the analysis timeframe included in analyses (i.e., not missing or discarded) 
+
+ADB_Manual_Measurements.csv
+Header: Description
+Site: Site where tree was located
+Band_number: Identification number of automated dendrometer band, unique to each tree
+Time_stamp: Date and time of record. Format YYYY-MM-DD HH:MM:SS. 24 Hours
+mm: Distance in mm between to visual marks on automated dendrometer bands 
+
+Data taken from:
+Herrmann V, McMahon SM, Detto M, Lutz JA, Davies SJ, Chang-Yang C, Anderson-Teixeira KJ (2016) Data from: Tree circumference dynamics in four forests characterized using automated dendrometer bands. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.b327c
+
