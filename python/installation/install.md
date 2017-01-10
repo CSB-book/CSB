@@ -8,7 +8,7 @@ If you are starting from scratch, the simplest option is to install [Anaconda](h
 Open a terminal, go to the place where you downloaded anaconda (by default `home/yourname/Downloads`) and type:
 
 ```
-bash Anaconda3-2.4.1-Linux-x86_64.sh
+bash Anaconda3-4.2.0-Linux-x86_64.sh
 ```
 
 (substitute the right filename in case you downloaded a different version). Just accept the default values for all the questions during the installation. Close the terminal and restart it. Then type
@@ -29,7 +29,7 @@ Which should launch jupyter in your default browser.
 
 ### OSX
 
-Launch the .pkg file you downloaded and follow the instructions.
+Launch the `.pkg` file you downloaded and follow the instructions.
 
 Once you are finished installing Anaconda, launch a new terminal and type
 
