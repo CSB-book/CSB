@@ -43,13 +43,13 @@ to upgrade the software.
 
 Install Anaconda using the graphical installation you downloaded. Choose all the default values during the installation. 
 
-Then launch the application `Anaconda prompt` you should have just installed and type
+If the installation was successful, you should find the application `Anaconda prompt` in your Start menu. Right-click on the application and select 'Run as administrator'. In the Anaconda terminal type
 
 ```
 conda install jupyter 
 ```
 
-to upgrade the software. To create a new notebook, simply launch the application `Jupyter Notebook` that should now be available.
+to upgrade the software. To create a new notebook, simply launch the application `Jupyter Notebook` that should now be available in the folder 'Anaconda3' in the Start menu.
 
 ## Experienced users
 
