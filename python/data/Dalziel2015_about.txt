@@ -7,6 +7,10 @@ transmission patterns. Dryad Digital
 Repository. http://dx.doi.org/10.5061/dryad.r4q34
 
 The data is associated with the publication:
+Dalziel BD, Bjornstad ON, van Panhuis WG, Burke DS, Metcalf CJE, Grenfell BT (2016) Persistent chaos of measles epidemics in the prevaccination United States caused by a small change in seasonal transmission patterns. PLOS Computational Biology 12(2): e1004655. http://dx.doi.org/10.1371/journal.pcbi.1004655
+
+Description:	
+Reported measles cases in 80 large cities in the prevaccination United States and United Kingdom, each biweek for 20 years. US data spans 1920-1940. UK data spans 1944-1964. Estimated population size of each city, and estimated susceptible recruitment over time are also included.
 
 
 
