@@ -1,0 +1,19 @@
+Data from:
+
+Fox CW, Burns CS, Meyer JA (2016) Editor and reviewer gender influence the peer review process but not peer review outcomes at an ecology journal. Functional Ecology 30(1): 140–153. http://dx.doi.org/10.1111/1365-2435.12529
+
+Adapted from Dryad data package:
+
+Fox CW, Burns CS, Meyer JA (2015) Data from: Editor and reviewer gender influence the peer review process but not peer review outcomes at an ecology journal. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.5090r
+
+Notes:
+=====================================================================
+MsID -> Manuscript ID. Each MsID is represented in multiple rows, one for each reviewer.
+Year -> Submission Year
+HandlingEditorSex -> Gender of handling editor
+ReviewerSex -> Gender of reviewer
+ReviewerRegion -> Geographic region of reviewer
+ReviewerAgreed -> 1 for agree, 0 for decline
+ReviewerScore -> Quality score, 1 being high and 4 being weak (see paper for details).
+FinalDecision -> 1 Reject, 0 Accept
+

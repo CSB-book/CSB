@@ -1,0 +1,11 @@
+Data is taken from:
+
+Kacsoh BZ, Lynch ZR, Mortimer NT, Schlenke TA (2013) Fruit flies medicate offspring after seeing parasites. Science 339(6122): 947-950. http://dx.doi.org/10.1126/science.1229625
+
+We selected scan 4 of the confocal microscopy stack NinaB_Unexposed_2_3.lsm and saved it as RGB in .png format.
+
+
+
+Downloaded from Data Dryad:
+
+Kacsoh BZ, Lynch ZR, Mortimer NT, Schlenke TA (2013) Data from: Fruit flies medicate offspring after seeing parasites. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.j5g7m
