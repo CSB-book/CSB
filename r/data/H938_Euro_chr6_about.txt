@@ -1,0 +1,10 @@
+Data extracted by John Novembre from the Stanford HGDP SNP Genotyping Database
+http://www.hagsc.org/hgdp/files.html
+
+See
+https://github.com/NovembreLab/HGDP_PopStruct_Exercise
+
+and 
+https://github.com/StefanoAllesina/BSD-QBio
+
+

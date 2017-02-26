@@ -1,0 +1,21 @@
+Data from:
+
+Lyons, S. K. Morgan Ernest, Kate E. Jones, Dawn M. Kauffman, Tmar Dayan, Pablo A. Marquet, James H. Brown, and John P. Haskell. 2003. Body mass of late Quaternary mammals. Ecology 84:3403.
+
+A.  Data Set File
+
+Identity: MOMv3.3.txt
+
+Size: 5731 records, not including header row.
+
+Format and Storage mode:Ascii text, tab delimited. No compression schemes used.
+
+Header information: Headers are given here as header name followed by more information such as measurement units or other basic descriptor. More information on the variable definitions can be found in Section B, variable information. Continent (SA, NA, EA, insular, oceanic, AUS, AF), Status (extinct, historical, introduction, or extant), Order, Family, Genus, Species, Log Mass (grams), Combined Mass (grams), Reference.
+
+Alphanumeric attributes: Mixed
+
+Special characters/fields: -999 denotes lack of information for that field.
+
+Authentication procedures: The number of records for each continent and for extant and extinct species should match the values reported in Table 1.  The following are sums (excluding missing values) for the overall numeric columns: Log Mass = 10,828.71; Combined Mass (g) = 879,113,624. Sums for log Mass (excluding missing values) by continent are:  AF = 1,839.66; AUS = 934.58; EA = 1560.16; Insular = 2,118.89; NA = 1,655.91; Oceanic = 439.14; SA = 2,280.37.
+
+
