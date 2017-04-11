@@ -1,0 +1,15 @@
+Data published by:
+
+Letchford A, Moat HS, Preis T (2015) The advantage of short paper titles. Royal Society Open Science 2(8): 150266. http://dx.doi.org/10.1098/rsos.150266
+
+Data taken from:
+
+Letchford A, Moat HS, Preis T(2015) Data from: The advantage of short paper titles. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.hg3j0
+
+We have removed the titles to make the file smaller.
+The csv contains, for each of 140,000 articles:
+- year of publication (year), 
+- journal where the article was published (journal)
+- length of the title (title_length)
+- number of citations received as of November 2014 (cites)
+

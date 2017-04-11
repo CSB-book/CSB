@@ -1,0 +1,11 @@
+Data from:
+
+Mersch DP, Crespi A, Keller L (2013) Tracking individuals shows spatial fidelity is a key regulator of ant social organization. Science 340(6136): 1090-1093. http://dx.doi.org/10.1126/science.1234316
+
+Dowloaded from:
+
+Mersch DP, Crespi A, Keller L (2013) Data from: Tracking individuals shows spatial fidelity is a key regulator of ant social organization. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.8d8h7
+
+The original data set is much larger than what presented here.
+
+

@@ -1,0 +1,58 @@
+---
+output: pdf_document
+---
+
+# Gut microbiome of termites --- Mikaelyan et al. 2015
+## Point 5
+
+The goal is to compute Shannon's diversity index for the gut community associated with each species.
+First, we connect to the database:
+
+```{r}
+library(RSQLite)
+sqlite <- dbDriver("SQLite")
+con <- dbConnect(sqlite, "../data/Mikaelyan2015.db")
+```
+
+Make sure that we can see the tables:
+```{r}
+print(dbListTables(con))
+```
+
+Now we run a query to extract the name of the species and the corresponding ID:
+```{r}
+res <- dbSendQuery(con, "SELECT * FROM tSpp;")
+# store the results
+tSpp <- dbFetch(res, n = -1)
+# print the table
+head(tSpp)
+```
+
+Now we create a dataframe, and for each species, we calculate the Shannon's index of diversity using the package `vegan`:
+
+```{r}
+library(vegan)
+div_termites <- data.frame()
+for (i in 1:dim(tSpp)[1]){
+  SpName <- tSpp[i,]$Spp
+  SpID <- tSpp[i,]$IDSpp
+  # Select all the Num > 0 for that Species ID from table tNumber
+  res <-  dbSendQuery(con, 
+                      paste("SELECT Num FROM tNumber WHERE Num>0 AND IDSpp=", SpID, ";"))
+  my_freq <- dbFetch(res, n = -1)
+  # add to the database
+  div_termites <- rbind(div_termites, 
+                        data.frame(Species = SpName, 
+                                   Diversity = diversity(my_freq, index = "shannon")))
+}
+# print the results
+div_termites
+```
+
+Close the connection to the database:
+```{r}
+# clean results
+dbClearResult(con)
+dbDisconnect(con)
+```
+
