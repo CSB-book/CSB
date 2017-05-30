@@ -1,0 +1,11 @@
+Data from:
+
+Bolstad GH, Cassara JA, Márquez E, Hansen TF, van der Linde K, Houle D, Pélabon C (2015) Complex constraints on allometry revealed by artificial selection on the wing of Drosophila melanogaster. Proceedings of the National Academy of Sciences of the United States of America 112(43): 13284–13289. http://dx.doi.org/10.1073/pnas.1505357112
+
+Downloaded from Data Dryad:
+
+Bolstad GH, Cassara JA, Márquez E, Hansen TF, van der Linde K, Houle D, Pélabon C (2015) Data from: Complex constraints on allometry revealed by artificial selection on the wing of Drosophila melanogaster. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.s270f
+
+Content of datafile:Species: species identifier hopefully self explanatory, normally [first letter in genus]_[species or subspecies, abbreviated], see table S6 in Bolstad et al. 2015 for the scientific name; 
+ID: individual fly ID in the form of the picture name;Date: the date the image of the fly was taken (day_month_year); 
+Sex: the sex of each fly, where F codes for female and M codes for male; WingSize: the size of each fly's wing in log(mm) (square root of area on the natural logarithmic scale); L2Length: length of vein L2 in log(mm), where log is the natural logarithm

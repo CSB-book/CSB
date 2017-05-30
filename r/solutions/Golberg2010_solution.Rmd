@@ -1,0 +1,106 @@
+---
+output: pdf_document
+---
+
+# Self incompatibility in plants --- Golberg et al. 2010
+
+> Golberg et al. (2010) studied self-incompatibility in Solenaceae. Self-incompatible plants can recognize and reject their own pollen. The file `data/Golberg2010_data.csv` contains a list of 356 species, along with a flag determining the self-incompatibility status: `0` stands for self-incompatible; `1` for self-compatible; `2-5` for more complex scenarios.
+
+> 1. Write a program that counts how many species are in each category of `Status`. The output should be a `data.frame`, like
+> ```
+  Status count
+1      0   116
+2      1   196
+3      2    17
+4      3     1
+5      4    25
+6      5     1
+```
+
+This can be accomplished in a number of ways. First of all, we need to read the data using the function `read.csv`:
+
+```{r}
+# Read the table (use stringsAsFactors == FALSE, otherwise species names
+# will become factors!)
+g2010 <- read.csv("../data/Goldberg2010_data.csv", stringsAsFactors = FALSE)
+# Check the dimensions
+dim(g2010)
+# Print the first few lines
+head(g2010)
+```
+
+Now we want to count how many species are associated with each `Status`, and store the results in a `data.frame`. 
+
+A possible strategy is to extract all the unique occurrences of `Status`, and then write a `for` loop iterating over them. For each `Status`, we can append to the `data.frame`:
+
+```{r}
+# Get unique values in Status
+possible_status <- sort(unique(g2010$Status))
+# Create empty data.frame
+results <- data.frame()
+# Cycle through the possible values:
+for (status in possible_status) {
+  # Add to the data.frame
+  results <- rbind(results, 
+                   data.frame(Status = status, count = sum(g2010$Status == status)))
+}
+# And here are the results
+results
+```
+
+Alternatively, we can manage without writing a loop, by exploiting the function `table`, which automatically builds a vector of counts (see `?table` for the manual):
+
+```{r}
+# Example usage
+table(g2010$Status)
+# Store it in a temporary variable
+tmp <- table(g2010$Status)
+# Build the data.frame
+results <- data.frame(Status = as.numeric(names(tmp)),
+                      count = as.numeric(tmp))
+# And here are the results
+results
+```
+
+> 2. Write a program that builds a `data.frame` specifying how many species are in each `Status` for each genus (note that each species name starts with the genus, followed by an underscore).
+
+To complete this task, we need to extract the genus name for each species. The functions `strsplit` can break a string into pieces according to one (or more) characters. It returns a list for each string. For example:
+
+```{r}
+# Take the first species
+sp1 <- g2010$Species[1]
+# Here's the species name
+sp1
+# Split using "_" as a separator
+strsplit(sp1, "_")
+# To access the genus 
+# [[1]] -> First element of the list; 
+# [1] -> First element of the vector
+strsplit(sp1, "_")[[1]][1]
+```
+
+With this function at hand, we can for example add a new `Genus` column to `g2010`:
+
+```{r}
+# Create empty vector of strings
+genera <- character(0)
+# For each species, extract genus
+for (sp in g2010$Species){
+  genus <- strsplit(sp, "_")[[1]][1]
+  # update genus list
+  genera <- c(genera, genus)
+}
+# Finally, append to g2010
+g2010$Genus <- genera
+# See the first few
+head(g2010)
+```
+
+There are other, clever ways to obtain the same results. However, they are more advanced, so we stick to the for loop.
+
+Once we have extracted the `Genus`, we can for example build a table using two nested for loops, or alternatively calling
+
+```{r}
+table(g2010$Genus, g2010$Status)
+```
+

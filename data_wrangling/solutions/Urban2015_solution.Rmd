@@ -1,0 +1,89 @@
+---
+output: pdf_document
+---
+
+# Extinction risk meta-analysis --- Urban 2015
+
+> Urban (2015) conducted a meta-analysis of extinction risks and its relationship to climate change. He included 131 studies. In Figure 1, he plotted the number of studies reporting a certain overall proportion of extinction risk. The data (`data/Urban2015_data.csv`) is at a finer resolution than what needed for this figure. In fact, each study has been split into different lines according to the method and taxa used to compute the extinction risk. To reproduce Figure 1, you will need to coarse grain the data by grouping lines with the same author/year, and for each study compute the proportion of species at risk for extinction (sum the `N.Ext` for each study, and divide for the corresponding sum of `Total.N`). A close inspection of the original Figure shows that the data has been plotted in bins of unequal size (e.g., '0.5 < proportion < 1' is in one bin) so you will need to classify the various proportions into appropriate bins (0, 0-0.05, 0.05-0.1, ..., 0.5-1) before plotting. A `ggplot2` version of Figure 1 of the original paper is reported in `data/Urban2015_figure1.pdf`. Reproduce the figure.
+
+
+```{r}
+library(ggplot2)
+library(dplyr)
+
+u2015 <- read.csv("../data/Urban2015_data.csv", sep = '\t', stringsAsFactors = FALSE)
+```
+
+Now we need to coarse-grain the data according to the study (`Author`, `Year`). In particular, we want to compute the `risk` by summing all the `N.Ext`, and the `total` by summing `Total.N`. This can be accomplished by either cycling through the data and build a new data frame, or using the `summarise` function of `dplyr`:
+
+```{r}
+by_study <- summarise(group_by(u2015, Author, Year), risk = sum(N.Ext), total = sum(Total.N))
+# look at the results
+by_study
+```
+
+Now let's add a column expressing the proportion of species at risk of extinction:
+
+```{r}
+by_study <- mutate(by_study, proportion = risk / total)
+by_study
+```
+
+We can plot the data using `geom_bar` and adjust the `binwidth`.
+
+```{r}
+ggplot(data = by_study, aes(proportion)) + geom_bar(binwidth = .05)
+```
+
+However, it looks slightly different from Figure 1 in the publication given the unequal width of the bins. In order to exactly reproduce the figure, we can construct a column `risk_bin` that classifies the proportion of species at risk into bins of variable length. This can be accomplished using the function `findInterval`. For example:
+
+```{r}
+head(cbind(by_study$proportion, findInterval(by_study$proportion, c(0, 0.000001, seq(0.05, 0.5, by = 0.05)))))
+```
+
+Let's add this column to the table `by_study`:
+
+```{r}
+by_study$risk_bin <- findInterval(by_study$proportion, c(0, 0.000001, seq(0.05, 0.5, by = 0.05)))
+```
+
+And transform this into a factor, with the right labels. First, build the labels for each bin:
+```{r}
+leftbound <- c(0, seq(0.0, 0.45, by = 0.05), 0.5)
+leftbound
+rightbound <- c(0, seq(0.05, 0.5, by = 0.05), 1)
+rightbound
+label_risk_bin <- paste(leftbound, rightbound, sep = "-")
+label_risk_bin
+# now transform bin_risk into factors
+by_study$risk_bin <- factor(by_study$risk_bin, levels = 1:12, labels = label_risk_bin) 
+# see the result
+by_study
+```
+
+After all this data reshaping, we are ready to plot!
+
+```{r}
+pl <- ggplot(data = by_study, aes(x = risk_bin)) + geom_bar()
+pl
+```
+
+Make the graph prettier:
+
+```{r}
+pl <- pl + theme_bw() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) + 
+  xlab("Proportion species at risk") + 
+  ylab("Number of studies")
+pl
+```
+
+
+Ready to save the plot using `ggsave`:
+
+```{r}
+ggsave(pl, file = "../data/Urban2015_figure1.pdf")
+```
+
+
+

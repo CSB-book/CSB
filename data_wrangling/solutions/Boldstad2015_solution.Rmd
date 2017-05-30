@@ -1,0 +1,50 @@
+---
+output: pdf_document
+---
+
+# Drosophilidae wings --- Bolstad et al. 2015
+
+> Boldstad et al. (2015) studied the allometric relationships between the length of the wings of Drosophilidae and the length of the L2 vein that runs across the wing. They measured more than 20,000 individuals, belonging to 111 species. In their Figure 1, they show regressions between the log length of the wing size and the log length of the L2 vein. They produce a regression for each species and sex. They then added points showing the average values for each species. The file `data/Bolstad2015_figure1.pdf` contains a simplified version of Figure 1 of the original paper. Reproduce the figure. The data is stored in `CSB/ggplot2/data/Boldstad2015_data.csv`. The logarithm of wing size and L2 length is already taken.
+
+Always start by importing libraries and the data:
+
+```{r}
+library(ggplot2)
+library(dplyr)
+# read the data
+b2015 <- read.csv("../data/Bolstad2015_data.csv")
+# explore dimensions of the data
+dim(b2015)
+# explore structure of the data
+head(b2015)
+# number of species
+dim(distinct(select(b2015, Species)))
+```
+
+We want to produce a regression per `Species`, and facet by `Sex`. We could use the `aes` colour, but that would produce many different colors. Alternatively, we can define the `group` directly:
+
+```{r}
+# draw a regression line for each species and sex
+pl <- ggplot(data = b2015, aes(x = WingSize, y = L2Length, group = Species)) + 
+  geom_smooth(alpha = 0.1, method = "lm", se = FALSE) + facet_grid(.~Sex) + theme_bw()
+pl
+```
+
+Now we want to add another layer, with a point for each `Species`/`Sex` combination. We create a new data frame using the function `summarise` of `dplyr`:
+
+```{r}
+# compile averages by species and sex
+by_species_sex <- summarise(group_by(b2015, Species, Sex), 
+                            WingSize = mean(WingSize), 
+                            L2Length = mean(L2Length))
+# see the result
+by_species_sex 
+# add points to current plot
+pl <- pl + geom_point(data = by_species_sex)
+# add labels for x- and y-axis
+pl <- pl + xlab("Wing size (ln mm)") + ylab("Vein L2 length (ln mm)")
+# plot the result
+pl
+# save the graph
+ggsave(pl, filename = "../data/Bolstad2015_figure1.pdf", width = 9, height = 4)
+```

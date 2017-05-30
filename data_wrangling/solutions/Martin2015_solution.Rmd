@@ -1,0 +1,85 @@
+---
+output: pdf_document
+---
+
+# Life history in songbirds --- Martin 2015
+
+> Martin (2015) studied songbirds in temperate and tropical environments. He showed (Figure 2A) that peak growth rate is higher in species suffering higher nest predation risk, and is lower in tropical species with the same level of risk as temperate species. In the same Figure (2B) he reported that   nestling period covaries with growth rate, with tropical species having a shorter nestling periods (for the same growth rate) than temperate species. The file `Martin2015_figure2.pdf` contains a figure generated with `ggplot2` similar to Figure 2 of the original paper. Reproduce the figure using the file `Martin2015_data.csv` deposited in the `CSB/ggplot2/data` folder.
+
+As always, we need to read the data:
+
+```{r}
+m2015 <- read.csv("../data/Martin2015_data.csv",sep = '\t', stringsAsFactors = FALSE)
+dim(m2015)
+head(m2015)
+```
+
+For panel A, we want to plot the peak growth rate (`krate`) against the nestling predation rate (`nstldpr`), coloring the points according to `site`.
+
+Load the packages:
+
+```{r}
+require(ggplot2)
+require(dplyr)
+require(gridExtra)
+```
+
+And start plotting:
+
+```{r}
+plA <- ggplot(data = m2015, aes(x = nstldpr, y = krate, colour = site)) + geom_point()
+plA
+```
+
+For easier visualization, let's map transform `site` into a factor:
+
+```{r}
+m2015$site <- factor(m2015$site, levels = c(1,2,3), 
+                     labels = c("Arizona - temperate",  
+                                "Venezuela - tropical", 
+                                "Malaysia - tropical"))
+
+# Now add labels
+plA <- ggplot(data = m2015, aes(x = nstldpr, y = krate, colour = site, shape = site)) + 
+  geom_point(size = 3)
+plA <- plA + xlab("Daily nest predation rate") + ylab("Growth rate") + ggtitle("A")
+plA
+```
+
+And make it prettier:
+
+```{r}
+plA <- plA + theme_bw() + theme(legend.position = "bottom") + 
+  geom_smooth(method = "glm", se = FALSE)
+plA
+```
+
+Good. Now let's start working on panel B: we need to plot the nestling period (`nstl`) against the growth rate (`krate`). Again, we color and choose shapes according to `site`.
+
+```{r}
+plB <- ggplot(data = m2015, aes(x = krate, y = nstl, colour = site, shape = site)) + 
+  geom_point(size = 3)
+plB
+# Add labels
+plB <- plB + xlab("Growth rate") + ylab("Nestling period") + ggtitle("B")
+# Add linear model, and move legend
+plB <- plB + theme_bw() + theme(legend.position = "bottom") +
+  geom_smooth(method = "glm", se = FALSE)
+plB
+```
+
+Finally, combine the two plots using `gridExtra`:
+
+```{r}
+grid.arrange(plA, plB, ncol = 2)
+```
+
+That's it! Try playing with the colors and shapes. When you are happy with your results, you can save the graph using the command `pdf`.
+
+```{r}
+pdf(file = "../data/Martin2015_figure2.pdf", width = 12, height = 7)
+grid.arrange(plA, plB, ncol = 2)
+dev.off()
+```
+
+
