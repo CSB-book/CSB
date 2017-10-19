@@ -1,7 +1,7 @@
 # Installing `jupyter notebook`
 
 ## All systems
-If you are starting from scratch, the simplest option is to install [Anaconda](https://www.continuum.io/downloads), choosing the version of `Python 3.5` for your operating system. Once you downloaded Anaconda:
+If you are starting from scratch, the simplest option is to install the package management system [Anaconda](https://www.continuum.io/downloads), choosing the version of `Python 3.5` for your operating system. Once you downloaded Anaconda:
 
 ### Linux
 
