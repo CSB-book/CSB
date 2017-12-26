@@ -6,7 +6,7 @@ No installation is required.
 
 ## OS X
 
-No installation is required. However, you might want to improve the appearance by changing some settings, as described [here](howtogeek.com/210308/how-to-change-the-os-x-terminals-appearance-with-profiles/).
+No installation is required. However, you might want to improve the appearance by changing some settings, as described [here](http://howtogeek.com/210308/how-to-change-the-os-x-terminals-appearance-with-profiles/).
 
 
 ## Windows
