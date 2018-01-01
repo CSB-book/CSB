@@ -1,0 +1,11 @@
+Data adapted from:
+
+Gächter S, Schulz JF (2016) Data from: Intrinsic honesty and the prevalence of rule violations across societies. Dryad Digital Repository. https://doi.org/10.5061/dryad.9k358
+
+The data is associated with the publication:
+
+Gächter S, Schulz JF (2016) Intrinsic honesty and the prevalence of rule violations across societies. Nature 531: 496–499. https://doi.org/10.1038/nature17160
+
+Description: 
+the data needed to reproduce the individual country lines in Figure 1 of the original publication. For each country (characterized either by a low or high index of society-wide practices of rule violations [PRV index]), the cumulative distribution function for the claims is reported. 
+

@@ -1,0 +1,139 @@
+Country,Claim,Low_PRV,CumulativeFrequency
+Austria,0,1,0.1212121248
+Austria,1,1,0.1969697028
+Austria,2,1,0.3181818128
+Austria,3,1,0.4696969688
+Austria,4,1,0.6363636255
+Austria,5,1,1
+China,0,0,0.0464135036
+China,1,0,0.0886075944
+China,2,0,0.2109704614
+China,3,0,0.4177215099
+China,4,0,0.6919831038
+China,5,0,1
+Colombia,0,0,0.0480769239
+Colombia,1,0,0.1153846234
+Colombia,2,0,0.2307692468
+Colombia,3,0,0.4326923192
+Colombia,4,0,0.8076922894
+Colombia,5,0,1
+Czech R.,0,1,0.077922076
+Czech R.,1,1,0.2207792252
+Czech R.,2,1,0.2857142985
+Czech R.,3,1,0.415584445
+Czech R.,4,1,0.6363636851
+Czech R.,5,1,1
+Georgia,0,0,0.0927835032
+Georgia,1,0,0.1752577275
+Georgia,2,0,0.2577319443
+Georgia,3,0,0.412371099
+Georgia,4,0,0.6701030731
+Georgia,5,0,1
+Germany,0,1,0.1449275315
+Germany,1,1,0.2608695626
+Germany,2,1,0.3623188436
+Germany,3,1,0.5217391253
+Germany,4,1,0.710144937
+Germany,5,1,1
+Guatemala,0,0,0.0880829021
+Guatemala,1,0,0.202072531
+Guatemala,2,0,0.3056994677
+Guatemala,3,0,0.4145077467
+Guatemala,4,0,0.7150259018
+Guatemala,5,0,1
+Indonesia,0,1,0.0789473653
+Indonesia,1,1,0.184210524
+Indonesia,2,1,0.2631579041
+Indonesia,3,1,0.4342105389
+Indonesia,4,1,0.6578947306
+Indonesia,5,1,1
+Italy,0,1,0.048780486
+Italy,1,1,0.2317073196
+Italy,2,1,0.3414634168
+Italy,3,1,0.536585331
+Italy,4,1,0.7682926655
+Italy,5,1,1
+Kenya,0,0,0.0543478243
+Kenya,1,0,0.1521739066
+Kenya,2,0,0.25
+Kenya,3,0,0.4565217495
+Kenya,4,0,0.663043499
+Kenya,5,0,1
+Lithuania,0,1,0.0985915512
+Lithuania,1,1,0.2394366264
+Lithuania,2,1,0.3098591566
+Lithuania,3,1,0.5633802414
+Lithuania,4,1,0.8309859037
+Lithuania,5,1,1
+Malaysia,0,1,0.125
+Malaysia,1,1,0.203125
+Malaysia,2,1,0.28125
+Malaysia,3,1,0.453125
+Malaysia,4,1,0.703125
+Malaysia,5,1,1
+Morocco,0,0,0.0217391308
+Morocco,1,0,0.0724637657
+Morocco,2,0,0.2101449221
+Morocco,3,0,0.2826086879
+Morocco,4,0,0.5144927502
+Morocco,5,0,1
+Netherlands,0,1,0.0833333358
+Netherlands,1,1,0.1666666716
+Netherlands,2,1,0.2976190448
+Netherlands,3,1,0.4642857313
+Netherlands,4,1,0.75
+Netherlands,5,1,1
+Poland,0,1,0.1090909094
+Poland,1,1,0.1727272719
+Poland,2,1,0.2545454502
+Poland,3,1,0.3636363745
+Poland,4,1,0.6454545259
+Poland,5,1,1
+Slovakia,0,1,0.137931034
+Slovakia,1,1,0.2643678188
+Slovakia,2,1,0.2988505661
+Slovakia,3,1,0.4597701132
+Slovakia,4,1,0.712643683
+Slovakia,5,1,1
+Viet Nam,0,0,0.0535714291
+Viet Nam,1,0,0.125
+Viet Nam,2,0,0.2142857164
+Viet Nam,3,0,0.3928571343
+Viet Nam,4,0,0.7767857313
+Viet Nam,5,0,1
+South Africa,0,1,0.0652173907
+South Africa,1,1,0.1630434692
+South Africa,2,1,0.3260869384
+South Africa,3,1,0.5217391253
+South Africa,4,1,0.7065217495
+South Africa,5,1,1
+Spain,0,1,0.0740740746
+Spain,1,1,0.1481481493
+Spain,2,1,0.2962962985
+Spain,3,1,0.4444444478
+Spain,4,1,0.7592592239
+Spain,5,1,1
+Sweden,0,1,0.1097560972
+Sweden,1,1,0.2560975552
+Sweden,2,1,0.3902438879
+Sweden,3,1,0.5121951103
+Sweden,4,1,0.7560975552
+Sweden,5,1,1
+Turkey,0,0,0.0819672123
+Turkey,1,0,0.1434426308
+Turkey,2,0,0.25
+Turkey,3,0,0.3934426308
+Turkey,4,0,0.6598360538
+Turkey,5,0,1
+UK,0,1,0.1065989882
+UK,1,1,0.2436548322
+UK,2,1,0.3705583811
+UK,3,1,0.5431472063
+UK,4,1,0.7664974928
+UK,5,1,1
+Tanzania,0,0,0.0071428572
+Tanzania,1,0,0.0714285746
+Tanzania,2,0,0.1571428627
+Tanzania,3,0,0.2785714269
+Tanzania,4,0,0.5285714269
+Tanzania,5,0,1
