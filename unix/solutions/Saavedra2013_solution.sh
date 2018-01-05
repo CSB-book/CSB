@@ -32,16 +32,16 @@ head -n 1 ../data/Saavedra2013/n10.txt
 
 # 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0
 
-# Now we can remove all spaces using tr:
-head -n 1 ../data/Saavedra2013/n10.txt | tr -d ' '
+# Now we can remove all spaces and the line terminator using tr:
+head -n 1 ../data/Saavedra2013/n10.txt | tr -d ' ' | tr -d '\n'
 
 # 01000001000000000100
 
 # Finally, we can use wc -c to count the number
 # of characters in the string:
 
-head -n 1 ../data/Saavedra2013/n10.txt | tr -d ' ' | wc -c
-# 21
+head -n 1 ../data/Saavedra2013/n10.txt | tr -d ' ' | tr -d '\n' | wc -c
+# 20
 
 # Armed with this information, we can write our
 # script (see the file netsize.sh).
