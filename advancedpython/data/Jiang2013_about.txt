@@ -1,0 +1,8 @@
+Data from:
+
+Jiang Y, Bolnick DI, Kirkpatrick M (2013) Assortative mating in animals. The American Naturalist 181(6): E125-E138. http://dx.doi.org/10.1086/670160
+
+Adapted from the Dryad data package:
+
+Jiang Y, Bolnick DI, Kirkpatrick M (2013) Data from: Assortative mating in animals. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.r706v
+
