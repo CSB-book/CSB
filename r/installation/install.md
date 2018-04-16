@@ -26,5 +26,5 @@ Visit the download site of the R Project [here](https://cloud.r-project.org/) an
 
 
 Visit the RStudio download page [here](https://www.rstudio.com/products/rstudio/download/#download) and select the link that corresponds to your operating system.
-Double click the downloaded file to start the installation wizzard and accept all default setings.
+Double click the downloaded file to start the installation wizard and accept all default setings.
 
