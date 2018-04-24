@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # $1 is the file name
 # $2 is the column of interest
 

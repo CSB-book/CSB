@@ -1,3 +1,5 @@
+#!/bin/bash
+
 FILES=../data/Saavedra2013/*.txt
 for f in $FILES 
 do

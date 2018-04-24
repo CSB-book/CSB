@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Filename:"
 echo $1
 echo "Number of rows:"

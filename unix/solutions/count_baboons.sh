@@ -1,4 +1,7 @@
-# read the input:
+#!/bin/bash
+
+# function of script:
+# read input:
 # $1 is the file name
 # $2 is the maleID
 
