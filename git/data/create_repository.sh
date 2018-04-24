@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# function of the script:
+# sets up a repository and
+# immitates workflow of
+# creating and commiting two text files
+
 mkdir branching_example
 cd branching_example
 git init
