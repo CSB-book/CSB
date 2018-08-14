@@ -1,7 +1,8 @@
 ---
 output:
+  pdf_document: 
+    latex_engine: xelatex
   html_document: default
-  pdf_document: default
 ---
 # This file contains all commands of the Chapter "Data Visualisation"
 
@@ -100,7 +101,7 @@ pl + geom_smooth()
 # use a linear model
 pl + geom_smooth(method = "lm")
 # use a polynomial regression
-pl + geom_smooth(method = "glm", formula = y ~poly(x, 3), se = FALSE)
+pl + geom_smooth(method = "lm", formula = y ~ poly(x, 3), se = FALSE)
 ```
 
 ```{r}

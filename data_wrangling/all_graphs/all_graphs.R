@@ -67,7 +67,7 @@ pl + geom_smooth()
 # use a linear model
 pl + geom_smooth(method = "lm")
 # use a polynomial regression
-pl + geom_smooth(method = "glm", formula = y ~poly(x, 3), se = FALSE)
+pl + geom_smooth(method = "lm", formula = y ~ poly(x, 3), se = FALSE)
 
 # calculate summary stats and errors
 stats <- popsize %>% filter(Herd %in% c("GRH", "PCH")) %>%
