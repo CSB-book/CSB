@@ -2,13 +2,8 @@ Data published by:
 Marra NJ, DeWoody JA (2014) Transcriptomic characterization of the immunogenetic repertoires of heteromyid rodents. BMC Genomics 15: 929. http://dx.doi.org/10.1186/1471-2164-15-929
 
 Data description:
-File D_spec_spleen_filtered.fasta (57.01Mb) contains Dipodomys
-spectabilis spleen transcriptome data. Combined assembly of 454 reads and fragmented Illumina assembly (see methods of associated paper) in gsAssembler version 2.6.
-
-Note, that we truncated this original file to 1% of it's original size and named it Marra2014_data.txt
-
-
+File D_spec_spleen_filtered.fasta (57.01Mb) contains Dipodomys spectabilis spleen transcriptome data. Combined assembly of 454 reads and fragmented Illumina assembly (see methods of associated paper) in gsAssembler version 2.6.
+Note that we truncated the original file to 1% of its original size and named it Marra2014_data.txt
 
 Data taken from:
 Marra NJ, DeWoody JA (2014) Data from: Transcriptomic characterization of the immunogenetic repertoires of heteromyid rodents. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.qn474
-
