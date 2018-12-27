@@ -16,3 +16,5 @@ do
 echo $ff
 done
 ```
+
+3. You can now use the script you've just written in combination with `sort` to answer the questions (remember the option `-k` to choose a column and `-r` to reverse the order).
