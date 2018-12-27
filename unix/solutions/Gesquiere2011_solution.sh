@@ -1,5 +1,5 @@
 ###################################################
-# Exercise on Gesquiere et al. (2011)
+# Exercise 1.10.2 on Gesquiere et al. (2011)
 ###################################################
 # 1) How many times were the levels of individuals
 # 3 and 27 recorded?
