@@ -1,5 +1,5 @@
 ###################################################
-# Exercise on Marra & DeWoody (2014)
+# Exercise 1.10.1 on Marra & DeWoody (2014)
 ###################################################
 # 1) Change directory to the /CSB/unix/sandbox
 
@@ -39,6 +39,7 @@ cp ../data/Marra2014_data.fasta my_file.fasta
 # in the sandbox
 
 ls
+
 ###################################################
 # 4) How many contigs are classified as
 # isogroup00036?
