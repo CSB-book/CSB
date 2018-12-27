@@ -1,5 +1,5 @@
 ###################################################
-# Exercise on Saavedra & Stouffer (2013)
+# Exercise 1.10.3 on Saavedra & Stouffer (2013)
 ###################################################
 # 1) Write a script that takes one of these files
 # and determines the number of rows (pollinators)
