@@ -1,4 +1,4 @@
-## Pseudo code for Exercise 1.10.1 (data from Marra and DeWoody, 2014)
+## Hints and pseudo code for Exercise 1.10.1 (data from Marra and DeWoody, 2014)
 
 1. To change the directory, you can use the commands explained at page 20.
 2. To find the size of a file you can use a modifier of the command `ls`.
