@@ -1,5 +1,5 @@
 ###################################################
-# Exercise on Buzzard et al. (2015)
+# Exercise 1.10.4 on Buzzard et al. (2016)
 ###################################################
 # 1)  Write a script that, for a given csv file and
 # column number, prints:
