@@ -2,9 +2,11 @@
 
 Compute the mean `RecombinantFraction` for each Drosophila `Line` and `InfectionStatus`. Print the results like:
 
+```
 Line 45 Average Recombination Rate: 
 W : 0.187 
 I : 0.191
+```
 
 **Hints** as always, the key is to choose the right data structure. For each `Line`, we need to keep track of all the recombination rates for `W` (wounded) and `I` (infected). For example, we could build a dictionary of dictionaries in which the first dictionary is indexed by `Line`, and the inner dictionary by the status (`W` or `I`); we could simply append all the rates to a list and average at the end.
 
