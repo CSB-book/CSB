@@ -1,13 +1,8 @@
 Data published by:
-Malhotra A, Creer S, Harris JB, Stöcklin R, Favreau P, Thorpe RS
-(2013) Predicting function from sequence in a large multifunctional
-toxin family. Toxicon 72:
-113-125. http://dx.doi.org/10.1016/j.toxicon.2013.06.019
-
+Malhotra A, Creer S, Harris JB, Stöcklin R, Favreau P, Thorpe RS (2013) Predicting function from sequence in a large multifunctional toxin family. Toxicon 72: 113-125. http://dx.doi.org/10.1016/j.toxicon.2013.06.019
 
 Data description:
 Alignment of amino-acid sequences of phospholipase A2 proteins from viper venom. Identifiers are either UniprotKB accession numbers, GenBank accession numbers, or author's own labels, the corresponding accession numbers and collection details can be found in the supporting material of the paper.
-
 
 Data taken from:
 Malhotra A, Creer S, Harris JB, Stöcklin R, Favreau P, Thorpe RS (2013) Data from: Predicting function from sequence in a large multifunctional toxin family. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.16pg7
