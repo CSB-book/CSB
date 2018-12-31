@@ -2,7 +2,7 @@
 output: pdf_document
 ---
 
-# Self incompatibility in plants --- Golberg et al. 2010
+# Solution of 8.23.1, Self incompatibility in plants --- Golberg et al. 2010
 
 > Golberg et al. (2010) studied self-incompatibility in Solenaceae. Self-incompatible plants can recognize and reject their own pollen. The file `data/Golberg2010_data.csv` contains a list of 356 species, along with a flag determining the self-incompatibility status: `0` stands for self-incompatible; `1` for self-compatible; `2-5` for more complex scenarios.
 
@@ -103,4 +103,3 @@ Once we have extracted the `Genus`, we can for example build a table using two n
 ```{r}
 table(g2010$Genus, g2010$Status)
 ```
-

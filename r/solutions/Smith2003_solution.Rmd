@@ -2,11 +2,11 @@
 output: pdf_document
 ---
 
-# Body mass of mammals --- Smith et al. 2003
+# Solution of 8.23.2, Body mass of mammals --- Smith et al. 2003
+
 > Smith et al. (2003) compiled a database of the body mass of mammals of the late Quaternary. Your goal is to calculate the average body mass of the species in each Family. 
 
-> 1. Write a script (`read_mass.R`) that reads and cleans the
-  data.
+> 1. Write a script (`read_mass.R`) that reads and cleans the data.
 
 First of all, we need to read the data into a `data.frame`. There is no header, the columns are separated by Tabs, and we want to include `stringsAsFactors = FALSE` to make sure species names are not turned into factors (categorical values, very useful for linear regressions, but not for our purposes).
 
@@ -27,7 +27,7 @@ s2003[s2003 == -999] <- NA
 summary(s2003[, 7])
 ```
 
-Finally, let's chose some descriptive headers to make it simpler to reference to specific columns.
+Finally, let's choose some descriptive headers to make it simpler to reference to specific columns.
 
 ```{r}
 colnames(s2003) <- c("Continent", "Status",

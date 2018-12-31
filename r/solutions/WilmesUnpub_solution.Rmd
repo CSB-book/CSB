@@ -2,7 +2,7 @@
   output: pdf_document
 ---
   
-# Leaf area using image processing --- Wilmes (unpublished)
+# Solution of 8.23.3, Leaf area using image processing --- (Wilmes, unpublished)
   
 > We want to determine the projected leaf area of plants using photos, and analyze whether the leaves grew significantly over the course of two days. The folder `CSB/r/data/leafarea/` contains images of plants at two time points (`t1` and `t2`). The data has been collected by Madlen.
 
@@ -19,6 +19,8 @@ If required, we first install the `EBImage` package, and load it.
 # install the EBImage package: run the following two commands
 # source("http://bioconductor.org/biocLite.R")
 # biocLite("EBImage")
+# note that you might need to install other libraries
+# for the installation to work
 
 # now load the library
 library(EBImage)

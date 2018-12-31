@@ -2,7 +2,7 @@
 output: pdf_document
 ---
 
-# Titles and citations --- Letchford et al. 2015
+# Solution of 8.23.4, Titles and citations --- Letchford et al. 2015
 
 > Letchford et al. (2015) found an interesting pattern: papers that have shorter titles tend to fare better in terms of citations. They took top-cited papers from a variety of journals, and ranked them by title length (in number of characters), and number citations received (as of November 2014). Then they performed a Kendall's tau test to see whether these rankings are correlated. A negative correlation would mean that the articles with longer titles tend to be ranked low for citations.
 

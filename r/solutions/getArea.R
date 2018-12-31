@@ -25,8 +25,8 @@ getArea <- function(f) {
     ## find object of less than 250 pixels and delete them
     m <- as.vector(mask[mask != 0])
     X <- table(m)
-    todel = names(X[X < 250])
-    mask <- rmObjects(mask, as.numeric(todel))
+    todel <- names(X[X < 250])
+    if (length(todel) > 0) mask <- rmObjects(mask, as.numeric(todel))
     ## apply gaussian blur to smooth contours
     mask <- gblur(mask, s = 5, r = 7)
     mask[mask >= 0.4] <- 1
