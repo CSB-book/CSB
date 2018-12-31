@@ -1,6 +1,6 @@
-When using this data, please cite the original publication:
-
+Data published by:
 Pearson PR, Warner DA (2016) Habitat- and season-specific temperatures affect phenotypic development of hatchling lizards. Biology Letters 12(10): 20160646. http://dx.doi.org/10.1098/rsbl.2016.0646
 Additionally, please cite the Dryad data package:
 
+Data taken from:
 Pearson PR, Warner DA (2016) Data from: Habitat- and season-specific temperatures affect phenotypic development of hatchling lizards. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.6g0j3
