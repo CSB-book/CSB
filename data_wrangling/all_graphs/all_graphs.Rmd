@@ -4,7 +4,17 @@ output:
     latex_engine: xelatex
   html_document: default
 ---
-# This file contains all commands of the Chapter "Data Visualisation"
+# This file contains all commands of the Chapter 9, "Data Wrangling and Visualisation"
+
+
+```{r knitr, echo=FALSE}
+knitr::opts_chunk$set(
+  eval      = TRUE,
+  comment   = "#",
+  warning = FALSE,
+  message = FALSE,
+  fig.align = "center")
+```
 
 ```{r}
 # load the library
@@ -31,7 +41,7 @@ ggplot(data = popsize) + aes(x = Year, y = Pop_Size, colour = Herd)
 
 ```{r}
 # add geometries
-  ggplot(data = popsize) + 
+ggplot(data = popsize) + 
  	aes(x = Year, y = Pop_Size, colour = Herd) + 
  	geom_point() + 
 	geom_line()
@@ -39,20 +49,28 @@ ggplot(data = popsize) + aes(x = Year, y = Pop_Size, colour = Herd)
 
 ```{r}
 # plot frequency distribution (histogram)
-ggplot(data = ndvi) + geom_histogram(aes(x = NDVI_May))
+ggplot(data = ndvi) + 
+  aes(x = NDVI_May) + 
+  geom_histogram()
 ```
 
 ```{r}
 # "unrolled" or nested
 # These three commands produce the same graph:
-ggplot(data = ndvi) + aes(x = NDVI_May) + geom_histogram()
-ggplot(data = ndvi, aes(x = NDVI_May)) + geom_histogram()
-ggplot(data = ndvi) + geom_histogram(aes(x = NDVI_May))
+ggplot(data = ndvi) + 
+  aes(x = NDVI_May) + 
+  geom_histogram()
+ggplot(data = ndvi, aes(x = NDVI_May)) + 
+  geom_histogram()
+ggplot(data = ndvi) + 
+  geom_histogram(aes(x = NDVI_May))
 ```
 
 ```{r}
 # density plot
-ggplot(data = ndvi) + aes(x = NDVI_May) + geom_density()
+ggplot(data = ndvi) + 
+  aes(x = NDVI_May) + 
+  geom_density()
 ```
 
 ```{r}
@@ -70,24 +88,35 @@ pl + geom_boxplot() + aes(fill = Herd)
 
 ```{r}
 # barplot (count data)
-ggplot(data = seaice %>% filter(Herd == "WAH")) + aes(x = Year) + geom_bar()
+ggplot(data = seaice %>% filter(Herd == "WAH")) + 
+  aes(x = Year) + 
+  geom_bar()
 ```
 
 ```{r}
 # map data to columns (note alphabetical order of x-axis)
-ggplot(data = seaice %>% filter(Herd == "WAH", Year == 1990)) +	aes(x = Month, y = Cover) + geom_col()
+ggplot(data = seaice %>% 
+         filter(Herd == "WAH", Year == 1990)) +	
+  aes(x = Month, y = Cover) + 
+  geom_col()
 ```
 
 ```{r}
 # display bars in chronolocigal order
 # convert data into factor and set to three-letter abbreviation of months
 seaice$Month <- factor(seaice$Month, month.abb)
-ggplot(data = seaice %>% filter(Herd == "WAH", Year == 1990)) +	aes(x = Month, y = Cover) + geom_col()
+ggplot(data = seaice %>% 
+         filter(Herd == "WAH", Year == 1990)) +	
+  aes(x = Month, y = Cover) + 
+  geom_col()
 ```
 
 ```{r}
 # scatterplots
-pl <- ggplot(data = popsize %>% filter(Herd == "WAH")) + aes(x = Year, y = Pop_Size) + geom_point()
+pl <- ggplot(data = popsize %>% 
+               filter(Herd == "WAH")) + 
+  aes(x = Year, y = Pop_Size) + 
+  geom_point()
 # show plot assigned to variable
 show(pl)
 ```
@@ -101,7 +130,8 @@ pl + geom_smooth()
 # use a linear model
 pl + geom_smooth(method = "lm")
 # use a polynomial regression
-pl + geom_smooth(method = "lm", formula = y ~ poly(x, 3), se = FALSE)
+pl + geom_smooth(method = "lm", 
+                 formula = y ~ poly(x, 3), se = FALSE)
 ```
 
 ```{r}
@@ -134,7 +164,9 @@ ggplot(data = stats) +
 
 ```{r}
 # set fill color of boxes by using scales
-pl <- ggplot(data = popsize, aes(x = Herd, y = Pop_Size, fill = Herd)) + geom_boxplot()
+pl <- ggplot(data = popsize, 
+             aes(x = Herd, y = Pop_Size, fill = Herd)) + 
+  geom_boxplot()
 show(pl)
 ```
 
@@ -144,12 +176,16 @@ pl + scale_fill_brewer(palette = "Set3")
 # palette based on hue
 pl + scale_fill_hue()
 # manually set values and rename the legend
-pl + scale_fill_manual(values = rainbow(11), name = "aaa")
+pl + scale_fill_manual(values = rainbow(11), 
+                       name = "aaa")
 ```
 
 ```{r}
 # apply scales to manipulate color and size of aestethic mappings
-pl <- ggplot(data = seaice %>% filter(Herd == "BEV")) + aes(x = Year, y = Month, colour = Cover, size = Cover) + geom_point()
+pl <- ggplot(data = seaice %>% filter(Herd == "BEV")) + 
+  aes(x = Year, y = Month, colour = Cover, 
+      size = Cover) + 
+  geom_point()
 show(pl)
 ```
 
@@ -160,22 +196,35 @@ pl + scale_color_gradient(high = "white", low = "red")
 
 ```{r}
 # facetting with identical scale of axis, including missing data
-ggplot(data = seaice %>% filter(Herd %in% c("WAH", "BAT"), Year %in% c(1980, 1990, 2000, 2010))) + aes(x = Month, y = Cover) + geom_col() + facet_grid(Year~Herd)
+ggplot(data = seaice %>% 
+         filter(Herd %in% c("WAH", "BAT"), 
+                Year %in% c(1980, 1990, 2000, 2010))) + 
+  aes(x = Month, y = Cover) + 
+  geom_col() + 
+  facet_grid(Year~Herd)
 ```
 
 ```{r}
 # facetting, ommit missing data
-ggplot(data = seaice %>% filter(Year == 2010)) + aes(x = Month, y = Cover) + geom_col() + facet_wrap(~Herd)
+ggplot(data = seaice %>% filter(Year == 2010)) + 
+  aes(x = Month, y = Cover) + 
+  geom_col() + 
+  facet_wrap(~Herd)
 ```
 
 ```{r}
 # facetting, ommit missing data, adjusted scale of axes
-ggplot(data = seaice %>% filter(Year == 2010)) + aes(x = Month, y = Cover) + geom_col() + facet_wrap(~Herd, scales = "free")
+ggplot(data = seaice %>% filter(Year == 2010)) + 
+  aes(x = Month, y = Cover) + 
+  geom_col() + 
+  facet_wrap(~Herd, scales = "free")
 ```
 
 ```{r}
 # changing labels and title
-pl <- ggplot(data = popsize) + aes(x = Year, y = Pop_Size) + geom_point() 
+pl <- ggplot(data = popsize) + 
+  aes(x = Year, y = Pop_Size) + 
+  geom_point() 
 pl + xlab("Year")
 pl + ylab("Population Size") 
 pl + ggtitle("Population Dynamics")
@@ -183,7 +232,9 @@ pl + ggtitle("Population Dynamics")
 
 ```{r}
 # legends
-pl <- ggplot(data = popsize) + aes(x = Herd, y = Pop_Size, fill = Herd) + geom_boxplot()
+pl <- ggplot(data = popsize) + 
+  aes(x = Herd, y = Pop_Size, fill = Herd) + 
+  geom_boxplot()
 # default
 show(pl)
 # move legend        
@@ -195,9 +246,15 @@ pl + theme(legend.position = "none")
 
 ```{r}
 # legend guides
-pl <- ggplot(data = popsize) + aes(x = Year, y = Pop_Size, colour = Herd, alpha = sqrt(Pop_Size)) + geom_point()
+pl <- ggplot(data = popsize) + 
+  aes(x = Year, y = Pop_Size, colour = Herd, 
+      alpha = sqrt(Pop_Size)) + 
+  geom_point()
 show(pl)
-pl + guides(colour = guide_legend(nrow = 4, title = "herd"), alpha = guide_legend(direction = "horizontal", title =  "al"))
+pl + guides(colour = guide_legend(nrow = 4, 
+                                  title = "herd"), 
+            alpha = guide_legend(direction = "horizontal", 
+                                 title =  "al"))
 # suppress only one legend
 pl + guides(colour = "none")
 ```
@@ -230,14 +287,19 @@ show(pl + theme_fivethirtyeight())
 ```{r}
 # setting features
 # use color as an aesthetic mapping, associated with Herd
-pl <- ggplot(data = popsize) + aes(x = Year, y = Pop_Size, colour = Herd) + geom_point()
+pl <- ggplot(data = popsize) + 
+  aes(x = Year, y = Pop_Size, colour = Herd) + 
+  geom_point()
 # set color to be red for all points
-pl <- ggplot(data = popsize) + aes(x = Year, y = Pop_Size) + geom_point(colour = "red")
+pl <- ggplot(data = popsize) + 
+  aes(x = Year, y = Pop_Size) + 
+  geom_point(colour = "red")
 ```
 
 ```{r}
 # saving plot as test.pdf in the sandbox
-ggsave(filename = "../sandbox/test.pdf", plot = pl, width = 3, height = 4)
+ggsave(filename = "../sandbox/test.pdf", plot = pl, 
+       width = 3, height = 4)
 ```
 
 ```{r}
@@ -249,10 +311,3 @@ popsize %>% filter(Year > 1979, Year < 1985) %>% spread(Year, Pop_Size) %>%  sel
 # ungroup elements
 popsize %>% group_by(Herd, Year) %>% tally() %>% ungroup()
 ```
-
-```{r}
-# operation on columns vs rowwise
-ndvi %>% mutate(maxndvi = max(NDVI_May, NDVI_June_August)) %>% head(4)
-ndvi %>% rowwise() %>% mutate(maxndvi = max(NDVI_May, NDVI_June_August)) %>% head(4)
-```
-
