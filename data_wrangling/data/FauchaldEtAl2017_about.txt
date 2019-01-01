@@ -1,9 +1,5 @@
 Data adapted from:
-
 Fauchald P, Park T, Tømmervik H, Myneni R, Hausner VH (2017) Arctic greening from warming promotes declines in caribou populations. Science Advances 3(4): e1601365. http://dx.doi.org/10.1126/sciadv.1601365
 
 You can find the original data on Dryad Digital Repository:
-
 Fauchald P, Park T, Tømmervik H, Myneni R, Hausner VH (2017) Data from: Arctic greening from warming promotes declines in caribou populations. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.d12t1
-
-
