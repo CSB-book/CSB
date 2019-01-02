@@ -29,5 +29,4 @@
 
 2. Write a function to repeat the analysis above for each year represented in the database. 
 
-	**Hints**: if you have written the function `get_prob_rejection` as specified above, this part is easy to implement.
-
+	**Hints**: if you have written the function `get_prob_rejection` as specified above, this part is more straigthforward to implement.
