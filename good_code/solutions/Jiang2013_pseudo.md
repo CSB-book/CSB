@@ -57,5 +57,4 @@
 
 3. Repeat the procedure for all taxa.
 
-	**Hints**: this is why having written a function is really good. Simply extract all taxa names from the list, and launch the function for each.
-
+	**Hints**: this is why having written a function is really good. You need to extract all taxa names from the list, and launch the function for each taxon.
