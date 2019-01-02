@@ -73,6 +73,4 @@
 
 3. Repeat this analysis for all genera, and for the records having `Time = 0`
 
-	**Hints**: the genera are contained in the header of the file `HITChip.tab`. Just extract them from there and store them in a list. Then you can call the function `get_abundance_by_BMI({'Time': '0'}, g)`, where `g` is the genus; cycle through all genera.
-
-
+	**Hints**: the genera are contained in the header of the file `HITChip.tab`. Extract them from the file and store them in a list. Then you can call the function `get_abundance_by_BMI({'Time': '0'}, g)`, where `g` is the genus; cycle through all genera.
