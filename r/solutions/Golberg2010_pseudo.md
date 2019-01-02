@@ -4,8 +4,8 @@
 
 	**Hints**:
 
-	- to read the data, use `read.csv`; remember to set `stringsAsFactors = FALSE`, otherwise the species names will become `factor`s
-	- there are different ways to solve the exercise; the simplest is to cycle through all possible values of `Status`, and count how many occurrences of each are in the data
+	- to read the data, use `read.csv`; remember to set `stringsAsFactors = FALSE`, otherwise the species names will become of type `factor`, and you won't be able to manipulate them
+	- there are different ways to solve the exercise; the most straightforward is to cycle through all possible values of `Status`, and count how many occurrences of each are in the data
 	- alternatively, check the documentation for the function `table`
 
 	**Pseudocode**:
@@ -35,6 +35,6 @@
 	    # split species name and extract genus
 	    # add to genera
 	}
-	# now simply use table to produce the contingency table
+	# now use the function table to produce the contingency table
 	```
 
