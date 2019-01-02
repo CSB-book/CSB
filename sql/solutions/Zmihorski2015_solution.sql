@@ -1,3 +1,4 @@
+/* Solution of 10.11.1 */
 /* Species richness of birds in wetlands --- Zmihorski et al. 2015 */
 /* You can copy and paste these commands into the SQLite shell */
 
@@ -7,7 +8,7 @@
 */
 
 -- We need to average Species.richness while grouping by Area:
-SELECT Area, avg(Species.richness) AS avg_richness
+SELECT Area, avg("Species.richness") AS avg_richness
 FROM tbirds
 GROUP BY AREA 
 ORDER BY AREA;
@@ -21,7 +22,7 @@ ORDER BY AREA;
 */
 
 -- As the query above, but group also by Year:
-SELECT Area, Year, avg(Species.richness) AS avg_richness
+SELECT Area, Year, avg("Species.richness") AS avg_richness
 FROM tbirds
 GROUP BY AREA, Year
 ORDER BY AREA, Year;
@@ -31,9 +32,9 @@ ORDER BY AREA, Year;
    area is flooded (field Flooding.binary), or not.
 */
 
-SELECT Flooding.binary, avg(Species.richness) AS avg_richness
+SELECT "Flooding.binary", avg("Species.richness") AS avg_richness
 FROM tbirds
-GROUP BY Flooding.binary;
+GROUP BY "Flooding.binary";
 
 /* 
 4) Produce a count of the co-occurrence of three bird species (Yellowwagtail, YW; 
@@ -57,5 +58,3 @@ SELECT (Yellowwagtail > 0) AS YW,
 count(*) AS Occurrences
 FROM tbirds
 GROUP BY YW, LW, SK;
-
-
