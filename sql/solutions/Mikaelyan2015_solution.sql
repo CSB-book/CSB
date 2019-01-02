@@ -1,3 +1,4 @@
+/* Solution of 10.11.2 */
 /* Gut microbiome of termites --- Mikaelyan et al. 2015 */
 /* You can copy and paste these commands into the SQLite shell */
 
@@ -14,7 +15,7 @@ FROM tSpp INNER JOIN tNumber ON tSpp.IDSpp = tNumber.IDSpp
 INNER JOIN tOTU on tNumber.IDOTU = tOTU.IDOTU
 LIMIT 50;
 
--- If we're satisfied with the result, we can create the view
+-- If we're satisfied with the result, we can turn it into a view
 CREATE VIEW combined AS
 SELECT Spp, OTU, Num
 FROM tSpp INNER JOIN tNumber ON tSpp.IDSpp = tNumber.IDSpp
@@ -26,7 +27,7 @@ INNER JOIN tOTU on tNumber.IDOTU = tOTU.IDOTU;
 */
 
 SELECT Spp, count(OTU) AS NumOTU FROM 
-combined WHERE Num >0
+combined WHERE Num > 0
 GROUP BY Spp ORDER BY NumOTU DESC;
 
 /* 
@@ -52,5 +53,5 @@ WHERE Num = 0;
    community of each species.
 */
 
--- The solution is contained in the file calculate_Shannon.Rmd
+-- The solution is reported in the file calculate_Shannon.Rmd
 
