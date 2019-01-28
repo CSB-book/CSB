@@ -2,14 +2,14 @@
 
 
 ## All systems
-Install the package management system [Anaconda](https://www.anaconda.com/download/) and chose the version of `Python 3.6` for your operating system. Once you downloaded Anaconda follow the instructions according to your operating system:
+Install the package management system [Anaconda](https://www.anaconda.com/download/) and chose the version of `Python 3.7` for your operating system. Once you downloaded Anaconda follow the instructions according to your operating system:
 
 ### Linux
 
 Open a terminal, go to the place where you downloaded anaconda (by default `home/yourname/Downloads`) and type:
 
 ```
-bash Anaconda3-5.0.1-Linux-x86_64.sh
+bash Anaconda3-2018.12-Linux-x86_64.sh
 ```
 
 (substitute the correct filename). Just accept the default values for all the questions during the installation. Close the terminal and restart it. Then type
